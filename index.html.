@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zinara Digital Marketing Agency | Your Digital Growth. Simplified.</title>
+    <meta name="description" content="Zinara Digital Marketing Agency helps businesses build visibility, authority, and revenue through data-driven marketing systems designed for growth that lasts.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="container">
+            <a href="#" class="logo">Zinara<span>.</span></a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#work">Our Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <a href="#contact" class="btn btn-primary">Start Now</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="container">
+                <h1>Unleash Your Digital Potential</h1>
+                <p>Zinara Digital Marketing Agency helps businesses build visibility, authority, and revenue through data-driven marketing systems designed for growth that lasts.</p>
+                <p class="tagline">Your Digital Growth. Simplified.</p>
+                <a href="#process" class="btn btn-primary">Our Process</a>
+            </div>
+        </section>
+
+        <section id="process">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Simple, transparent, and designed to deliver results fast</h2>
+                    <p>Our process: clear steps to revenue</p>
+                </div>
+                <div class="process-grid">
+                    <div class="process-step">
+                        <div class="number">1</div>
+                        <h3>Audit & Quick Wins</h3>
+                        <p>We audit your funnel and deliver 3 quick wins you can apply immediately. (Day 0-7)</p>
+                    </div>
+                    <div class="process-step">
+                        <div class="number">2</div>
+                        <h3>Custom Growth Plan</h3>
+                        <p>A tailored 30-/90-day plan with projected ROI and clear milestones. (Day 7)</p>
+                    </div>
+                    <div class="process-step">
+                        <div class="number">3</div>
+                        <h3>Execute & Optimize</h3>
+                        <p>We run campaigns, optimize weekly, and report on revenue metrics. (Ongoing)</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <div class="section-title">
+                    <h2>About Zinara Digital</h2>
+                    <p>"For those who refuse to stay invisible."</p>
+                </div>
+                <div class="about-content">
+                    <div>
+                        <h3>Our Mission</h3>
+                        <p>Zinara helps entrepreneurs, creators, and businesses turn visibility into growth. We engineer digital ecosystems powered by strategy, storytelling, and precision designed for those who refuse to stay invisible. Amplify business stories through smart digital marketing that builds trust and drives growth.</p>
+                    </div>
+                    <div>
+                        <h3>Our Vision</h3>
+                        <p>Our vision is to be a leading force in digital marketing empowering brands to share their stories with authenticity, creativity, and purpose, inspiring meaningful connections that drive growth, trust, and lasting impact worldwide.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services">
+            <div class="container">
+                <div class="section-title">
+                    <h2>What We Do</h2>
+                    <p>At Zinara Digital, we craft strategies that turn visibility into momentum and marketing into measurable growth. We design digital ecosystems that connect, engage, and convert.</p>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <i data-feather="trending-up"></i>
+                        <h3>Social Media Marketing & Management</h3>
+                        <p>We turn social platforms into revenue channels. Strategic content that stops the scroll, community management that builds trust, and ad campaigns that target buyers.</p>
+                        <ul>
+                            <li><i data-feather="check-circle"></i>Facebook & Instagram Marketing</li>
+                            <li><i data-feather="check-circle"></i>Social Media Advertising</li>
+                            <li><i data-feather="check-circle"></i>Content Creation</li>
+                        </ul>
+                    </div>
+                    <div class="service-card">
+                        <i data-feather="search"></i>
+                        <h3>SEO, Content Marketing & Paid Ads</h3>
+                        <p>We put you in front of buyers when they're actively looking. SEO for purchase-intent searches, paid ads for decision-makers, and content that builds authority.</p>
+                         <ul>
+                            <li><i data-feather="check-circle"></i>SEO Services & Link Building</li>
+                            <li><i data-feather="check-circle"></i>Google Ads Management</li>
+                            <li><i data-feather="check-circle"></i>Content Marketing</li>
+                        </ul>
+                    </div>
+                    <div class="service-card">
+                        <i data-feather="users"></i>
+                        <h3>Virtual Assistant & Customer Management</h3>
+                        <p>Our VAs handle the daily work of keeping customers happy. Reputation monitoring, review responses, follow-up sequences, and social engagement.</p>
+                         <ul>
+                            <li><i data-feather="check-circle"></i>Online Reputation Management</li>
+                            <li><i data-feather="check-circle"></i>Customer Relationship Management</li>
+                            <li><i data-feather="check-circle"></i>Email Marketing</li>
+                        </ul>
+                    </div>
+                    <div class="service-card">
+                        <i data-feather="layout"></i>
+                        <h3>Web Design & Conversion Optimization</h3>
+                        <p>Your website should work like a salesperson who never sleeps. We remove confusion, eliminate hesitation, and guide visitors smoothly from curiosity to checkout.</p>
+                         <ul>
+                            <li><i data-feather="check-circle"></i>Conversion-Focused Web Design</li>
+                            <li><i data-feather="check-circle"></i>Landing Page Optimization</li>
+                            <li><i data-feather="check-circle"></i>A/B Testing</li>
+                        </ul>
+                    </div>
+                     <div class="service-card">
+                        <i data-feather="cpu"></i>
+                        <h3>Marketing Automation & AI Intelligence</h3>
+                        <p>While competitors guess, you'll predict and scale. We install intelligence into your marketing engine for forecasting, automation, and personalization.</p>
+                         <ul>
+                            <li><i data-feather="check-circle"></i>Predictive Analytics & AI Marketing</li>
+                            <li><i data-feather="check-circle"></i>Customer Data Intelligence</li>
+                            <li><i data-feather="check-circle"></i>Campaign Optimization</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials">
+            <div class="container">
+                <div class="section-title">
+                    <h2>What Our Clients Say</h2>
+                    <p>Our clients share their success stories and experiences working with us.</p>
+                </div>
+                <div class="testimonial-carousel-container">
+                    <div class="testimonial-carousel">
+                        <!-- Slides will be injected by JS -->
+                    </div>
+                    <div class="carousel-nav">
+                        <button id="prev-btn"><i data-feather="chevron-left"></i></button>
+                        <button id="next-btn"><i data-feather="chevron-right"></i></button>
+                    </div>
+                </div>
+                 <div class="carousel-dots">
+                    <!-- Dots will be injected by JS -->
+                </div>
+            </div>
+        </section>
+
+        <section id="work">
+             <div class="container">
+                <div class="section-title">
+                    <h2>Our Work</h2>
+                    <p>Explore a showcase of our successful digital marketing campaigns and projects.</p>
+                </div>
+                <div class="work-grid">
+                    <div class="work-item">
+                        <img src="assets/work-1.jpg" alt="SEO Campaign for Tech Startup">
+                        <div class="work-content">
+                            <h3>SEO Campaign for Tech Startup</h3>
+                            <p>Increased organic traffic and search engine rankings through a tailored strategy focused on relevant keywords and quality content.</p>
+                        </div>
+                    </div>
+                    <div class="work-item">
+                        <img src="assets/work-2.jpg" alt="Social Media Campaign for Fashion Brand">
+                        <div class="work-content">
+                            <h3>Social Media Campaign for Fashion Brand</h3>
+                            <p>Amplified brand awareness and customer interactions with captivating visuals and targeted ads, leading to a rise in engagement and website traffic.</p>
+                        </div>
+                    </div>
+                    <div class="work-item">
+                        <img src="assets/work-3.jpg" alt="Content Marketing for E-Commerce">
+                        <div class="work-content">
+                            <h3>Content Marketing for E-Commerce Business</h3>
+                            <p>Generated a boost in conversion rates and customer retention by creating valuable, engaging content that established a loyal customer base.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                 <div class="section-title">
+                    <h2>Contact Us</h2>
+                    <p>Let's start a conversation about your digital growth.</p>
+                </div>
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h3>Get in Touch</h3>
+                        <p>We're here to help you navigate the digital landscape. Reach out to us for a consultation.</p>
+                        <ul>
+                            <li><i data-feather="map-pin"></i> Nairobi, Kenya</li>
+                            <li><i data-feather="phone"></i> +254704878872</li>
+                            <li><i data-feather="mail"></i> zinara-digital-2.com</li>
+                        </ul>
+                    </div>
+                    <div class="contact-form">
+                        <form action="#">
+                            <div class="form-group">
+                                <input type="text" name="first-name" placeholder="First Name" required>
+                                <input type="text" name="last-name" placeholder="Last Name" required>
+                            </div>
+                            <input type="email" name="email" placeholder="Email *" required>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Zinara Digital</h4>
+                    <p>Your digital growth partner.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <a href="#about">About Us</a>
+                    <a href="#services">Services</a>
+                    <a href="#work">Our Work</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Accessibility Statement</a>
+                </div>
+                 <div class="footer-col">
+                    <h4>Contact</h4>
+                    <p>Nairobi, Kenya</p>
+                    <p>+254704878872</p>
+                    <p>zinara-digital-2.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Zinara Digital Marketing. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- AI Chatbot -->
+    <button id="chatbot-toggler">
+        <i data-feather="message-square"></i>
+    </button>
+    <div id="chatbot-container">
+        <div class="chat-header">Chat with us</div>
+        <div class="chat-messages" id="chat-messages">
+             <div class="message bot"><div class="text">Hello! How can I help you today?</div></div>
+        </div>
+        <div class="chat-input">
+            <input type="text" id="user-input" placeholder="Type your message...">
+            <button id="send-chat-btn"><i data-feather="send"></i></button>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
