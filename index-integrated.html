@@ -3,63 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zinara Digital Marketing Agency | Your Digital Growth. Simplified.</title>
-    <meta name="description" content="Zinara Digital Marketing Agency helps businesses build visibility, authority, and revenue through data-driven marketing systems designed for growth that lasts.">
-
-    <link rel="preconnect" href="[https://fonts.googleapis.com](https://fonts.googleapis.com)">
-    <link rel="preconnect" href="[https://fonts.gstatic.com](https://fonts.gstatic.com)" crossorigin>
-    <link href="[https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap](https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap)" rel="stylesheet">
-    <script src="[https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script](https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script)>
-
+    <title>Zinara Digital - Where Visibility Meets Conversion</title>
     <style>
-        :root {
-            --deep-teal: #00303F;
-            --blush: #EDDFE0;
-            --sea-blue: #006B7D;
-            --orange: #FF6B35;
-            --aqua: #03A6A1;
-            --gray-accent: #7A7A7A;
-            --white: #FFFFFF;
-            --light-blush: #f9f5f5;
-            --text-dark: #2d3748;
-            --text-light: #5a677d;
-        }
-
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
 
-        html {
-            scroll-behavior: smooth;
+        :root {
+            --primary-orange: #FF6B35;
+            --secondary-teal: #2A5F5F;
+            --dark-teal: #1A3F3F;
+            --light-teal: #4A7F7F;
+            --cream: #FFF5F0;
+            --white: #FFFFFF;
+            --dark-gray: #2C3E50;
+            --light-gray: #ECF0F1;
+            --text-dark: #333333;
         }
 
         body {
-            font-family: 'Poppins', sans-serif;
-            color: var(--text-dark);
-            background-color: var(--white);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
+            color: var(--text-dark);
+            overflow-x: hidden;
         }
 
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-
-        /* --- Header & Navigation --- */
-        .main-header {
-            background-color: var(--white);
-            padding: 15px 0;
-            position: sticky;
+        nav {
+            background: var(--white);
+            padding: 1.5rem 5%;
+            position: fixed;
+            width: 100%;
             top: 0;
             z-index: 1000;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
-            border-bottom: 1px solid #eee;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
         }
 
-        .main-header .container {
+        .nav-container {
+            max-width: 1400px;
+            margin: 0 auto;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -67,817 +51,594 @@
 
         .logo {
             font-size: 1.8rem;
-            font-weight: 700;
-            color: var(--deep-teal);
+            font-weight: bold;
+            color: var(--primary-orange);
             text-decoration: none;
         }
-        .logo span {
-            color: var(--orange);
-        }
 
-        .main-nav ul {
-            list-style: none;
+        .nav-menu {
             display: flex;
-            gap: 30px;
+            list-style: none;
+            gap: 2.5rem;
+            align-items: center;
         }
 
-        .main-nav a {
+        .nav-menu a {
             text-decoration: none;
-            color: var(--deep-teal);
+            color: var(--text-dark);
             font-weight: 500;
             transition: color 0.3s ease;
         }
 
-        .main-nav a:hover, .main-nav a.active {
-            color: var(--orange);
+        .nav-menu a:hover {
+            color: var(--primary-orange);
         }
 
-        .btn {
-            padding: 12px 28px;
-            border-radius: 50px;
-            text-decoration: none;
-            font-weight: 600;
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+            gap: 5px;
+        }
+
+        .hamburger span {
+            width: 25px;
+            height: 3px;
+            background: var(--text-dark);
             transition: all 0.3s ease;
-            display: inline-block;
-            border: 2px solid transparent;
         }
 
-        .btn-primary {
-            background-color: var(--orange);
-            color: var(--white);
+        .hero {
+            margin-top: 80px;
+            min-height: 90vh;
+            display: flex;
+            align-items: center;
+            background: linear-gradient(135deg, var(--cream) 0%, var(--white) 100%);
+            padding: 4rem 5%;
         }
 
-        .btn-primary:hover {
-            background-color: #e65c29;
-            transform: translateY(-2px);
-        }
-        
-        /* --- Hero Section --- */
-        #hero {
-            background-color: var(--light-blush);
-            padding: 80px 0;
-            text-align: center;
+        .hero-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            width: 100%;
         }
 
-        #hero h1 {
-            font-size: 3.5rem;
-            color: var(--deep-teal);
+        .hero-content h1 {
+            font-size: 3.8rem;
             line-height: 1.2;
-            margin-bottom: 20px;
+            margin-bottom: 1rem;
+            color: var(--dark-teal);
         }
 
-        #hero p {
-            font-size: 1.2rem;
-            color: var(--text-light);
-            max-width: 800px;
-            margin: 0 auto 30px;
-        }
-
-        #hero .tagline {
+        .hero-subtitle {
+            font-size: 1.5rem;
+            color: var(--primary-orange);
+            margin-bottom: 1rem;
             font-weight: 600;
-            color: var(--sea-blue);
-            margin-bottom: 40px;
-            font-size: 1.3rem;
         }
 
-        /* --- Sections --- */
-        section {
-            padding: 80px 0;
+        .hero-content p {
+            font-size: 1.2rem;
+            color: var(--text-dark);
+            margin-bottom: 1rem;
+            line-height: 1.8;
         }
 
-        .section-title {
-            text-align: center;
-            margin-bottom: 60px;
-        }
-
-        .section-title h2 {
-            font-size: 2.5rem;
-            color: var(--deep-teal);
-            margin-bottom: 10px;
-        }
-
-        .section-title p {
+        .cta-button {
+            display: inline-block;
+            padding: 1rem 2.5rem;
+            background: var(--primary-orange);
+            color: var(--white);
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
             font-size: 1.1rem;
-            color: var(--text-light);
-            max-width: 700px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(255, 107, 53, 0.3);
+            border: none;
+            cursor: pointer;
+        }
+
+        .cta-button:hover {
+            background: var(--dark-teal);
+            transform: translateY(-3px);
+        }
+
+        .section {
+            padding: 6rem 5%;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+
+        .section-header h2 {
+            font-size: 2.8rem;
+            color: var(--dark-teal);
+            margin-bottom: 1rem;
+        }
+
+        .section-header p {
+            font-size: 1.2rem;
+            color: var(--text-dark);
+        }
+
+        .grid-3 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 3rem;
+            max-width: 1400px;
             margin: 0 auto;
         }
 
-        /* --- Process Section --- */
-        .process-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 40px;
-            text-align: center;
-        }
-
-        .process-step {
-            padding: 30px;
-            border: 1px solid #e2e8f0;
-            border-radius: 10px;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-
-        .process-step:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 10px 20px rgba(0,0,0,0.07);
-        }
-
-        .process-step .number {
-            font-size: 3rem;
-            font-weight: 700;
-            color: var(--blush);
-            background-color: var(--orange);
-            width: 80px;
-            height: 80px;
-            line-height: 80px;
-            border-radius: 50%;
-            margin: 0 auto 20px;
-        }
-
-        .process-step h3 {
-            font-size: 1.4rem;
-            color: var(--deep-teal);
-            margin-bottom: 10px;
-        }
-
-        /* --- About Section --- */
-        #about {
-            background-color: var(--light-blush);
-        }
-        .about-content {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 60px;
-            align-items: center;
-        }
-        .about-content h3 {
-            font-size: 1.5rem;
-            color: var(--sea-blue);
-            margin-bottom: 15px;
-        }
-
-        /* --- Services Section --- */
-        .services-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-            gap: 30px;
+        .card {
+            background: var(--white);
+            padding: 2.5rem;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
         }
 
         .service-card {
-            background-color: #f8fafc;
-            padding: 30px;
-            border-radius: 10px;
-            border: 1px solid #e2e8f0;
-        }
-
-        .service-card i {
-            color: var(--aqua);
-            margin-bottom: 20px;
+            background: var(--light-gray);
+            padding: 3rem;
+            border-radius: 15px;
+            border-left: 5px solid var(--primary-orange);
         }
 
         .service-card h3 {
-            font-size: 1.4rem;
-            margin-bottom: 15px;
-        }
-
-        .service-card ul {
-            list-style: none;
-            padding-left: 0;
-        }
-
-        .service-card ul li {
-            margin-bottom: 10px;
-            display: flex;
-            align-items: center;
-        }
-
-        .service-card ul li i {
-            color: var(--orange);
-            margin-right: 10px;
-            margin-bottom: 0;
-        }
-
-        /* --- Testimonials Section --- */
-        #testimonials {
-            background-color: var(--deep-teal);
-            color: var(--white);
-        }
-
-        #testimonials .section-title h2 { color: var(--white); }
-        #testimonials .section-title p { color: var(--blush); }
-
-        .testimonial-carousel-container {
-            position: relative;
-            max-width: 800px;
-            margin: 0 auto;
-            overflow: hidden;
-            min-height: 300px; /* Set a min-height to avoid layout shifts */
+            font-size: 1.8rem;
+            color: var(--dark-teal);
+            margin-bottom: 1rem;
         }
 
         .testimonial-carousel {
-            display: flex;
-            transition: transform 0.5s ease-in-out;
+            max-width: 1000px;
+            margin: 3rem auto;
         }
 
         .testimonial-slide {
-            min-width: 100%;
-            padding: 20px 60px; /* Padding for nav buttons */
-            text-align: center;
-            opacity: 0;
-            position: absolute;
-            transition: opacity 0.5s ease-in-out;
-            visibility: hidden;
+            display: none;
+            background: var(--light-gray);
+            padding: 3rem;
+            border-radius: 15px;
         }
 
         .testimonial-slide.active {
-            opacity: 1;
-            position: relative;
-            visibility: visible;
-        }
-
-        .testimonial-slide p {
-            font-size: 1.1rem;
-            font-style: italic;
-            line-height: 1.7;
-            margin-bottom: 20px;
-            color: var(--light-blush);
-        }
-
-        .testimonial-author {
-            font-weight: 600;
-            color: var(--white);
-        }
-
-        .testimonial-author span {
             display: block;
-            font-weight: 400;
-            color: var(--aqua);
-            font-size: 0.9rem;
         }
 
-        .carousel-nav {
-            position: absolute;
-            top: 50%;
-            transform: translateY(-50%);
-            width: 100%;
+        .carousel-controls {
             display: flex;
-            justify-content: space-between;
-            z-index: 10;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+            margin-top: 2rem;
         }
 
-        .carousel-nav button {
-            background-color: rgba(255, 255, 255, 0.1);
-            border: none;
+        .carousel-btn {
+            background: var(--primary-orange);
             color: var(--white);
+            border: none;
+            width: 45px;
+            height: 45px;
             border-radius: 50%;
             cursor: pointer;
-            width: 44px;
-            height: 44px;
-            transition: background-color 0.3s ease;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .carousel-nav button:hover { background-color: rgba(255, 255, 255, 0.2); }
-        .carousel-nav #prev-btn { margin-left: 10px; }
-        .carousel-nav #next-btn { margin-right: 10px; }
-
-        .carousel-dots {
-            text-align: center;
-            margin-top: 20px;
+            font-size: 1.2rem;
         }
 
         .dot {
-            cursor: pointer;
-            height: 12px;
             width: 12px;
-            margin: 0 5px;
-            background-color: rgba(255, 255, 255, 0.4);
+            height: 12px;
             border-radius: 50%;
-            display: inline-block;
-            transition: background-color 0.3s ease;
+            background: var(--light-gray);
+            cursor: pointer;
         }
 
-        .dot.active, .dot:hover { background-color: var(--orange); }
-
-        /* --- Work Section --- */
-        .work-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
-        }
-        .work-item {
-            border-radius: 10px;
-            overflow: hidden;
-            position: relative;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-        }
-        .work-item img {
-            width: 100%;
-            display: block;
-            height: 250px;
-            object-fit: cover;
-        }
-        .work-content {
-            padding: 20px;
-            background-color: white;
-        }
-        .work-content h3 { margin-bottom: 10px; }
-
-        /* --- Contact Section --- */
-        #contact {
-            background-color: var(--light-blush);
-        }
-        .contact-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 60px;
-            align-items: center;
-        }
-        .contact-info ul {
-            list-style: none;
-            margin-top: 20px;
-        }
-        .contact-info li {
-            display: flex;
-            align-items: center;
-            gap: 15px;
-            margin-bottom: 15px;
-        }
-        .contact-form form {
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-        }
-        .form-group {
-            display: flex;
-            gap: 20px;
-        }
-        .form-group input {
-            width: 100%;
-        }
-        .contact-form input, .contact-form textarea {
-            width: 100%;
-            padding: 15px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            font-family: 'Poppins', sans-serif;
-        }
-        .contact-form input:focus, .contact-form textarea:focus {
-            outline: none;
-            border-color: var(--orange);
+        .dot.active {
+            background: var(--primary-orange);
         }
 
-        /* --- Footer --- */
         footer {
-            background-color: var(--deep-teal);
+            background: var(--dark-teal);
             color: var(--white);
-            padding: 60px 0 20px;
+            padding: 4rem 5% 2rem;
         }
 
         .footer-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 40px;
-            margin-bottom: 40px;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 3rem;
+            max-width: 1400px;
+            margin: 0 auto 2rem;
         }
 
-        .footer-col h4 {
-            font-size: 1.2rem;
-            margin-bottom: 20px;
-            color: var(--orange);
+        .footer-section h3 {
+            color: var(--primary-orange);
+            margin-bottom: 1.5rem;
         }
 
-        .footer-col p, .footer-col a {
-            color: var(--blush);
+        .footer-section a {
+            color: var(--white);
             text-decoration: none;
-            margin-bottom: 10px;
             display: block;
+            margin-bottom: 0.8rem;
         }
 
-        .footer-col a:hover { color: var(--white); }
-
-        .footer-bottom {
-            text-align: center;
-            padding-top: 20px;
-            border-top: 1px solid var(--sea-blue);
-            font-size: 0.9rem;
-            color: var(--gray-accent);
-        }
-
-        /* --- AI Chatbot --- */
-        #chatbot-toggler {
+        .chatbot {
             position: fixed;
             bottom: 30px;
             right: 30px;
-            width: 60px;
-            height: 60px;
-            background-color: var(--orange);
-            color: white;
-            border-radius: 50%;
-            border: none;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            cursor: pointer;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-            z-index: 1001;
-        }
-
-        #chatbot-container {
-            position: fixed;
-            bottom: 100px;
-            right: 30px;
-            width: 350px;
-            max-height: 500px;
-            background-color: white;
-            border-radius: 15px;
-            box-shadow: 0 5px 20px rgba(0,0,0,0.15);
-            display: flex;
-            flex-direction: column;
-            overflow: hidden;
-            transform: scale(0.95) translateY(10px);
-            opacity: 0;
-            visibility: hidden;
-            transition: all 0.3s ease;
             z-index: 1000;
         }
 
-        #chatbot-container.open {
-            transform: scale(1) translateY(0);
-            opacity: 1;
-            visibility: visible;
-        }
-
-        .chat-header {
-            background-color: var(--deep-teal);
-            color: white;
-            padding: 15px;
-            font-weight: 600;
-            text-align: center;
-        }
-
-        .chat-messages {
-            flex-grow: 1;
-            padding: 15px;
-            overflow-y: auto;
-            background-color: #f4f7f9;
-        }
-
-        .chat-input {
-            display: flex;
-            padding: 10px;
-            border-top: 1px solid #e2e8f0;
-        }
-
-        .chat-input input {
-            flex-grow: 1;
-            border: 1px solid #ccc;
-            border-radius: 20px;
-            padding: 10px 15px;
-            font-size: 0.9rem;
-        }
-        .chat-input input:focus { outline: none; border-color: var(--sea-blue); }
-
-        .chat-input button {
-            background: none;
+        .chat-button {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--primary-orange), #FF8C5A);
             border: none;
+            color: var(--white);
+            font-size: 1.8rem;
             cursor: pointer;
-            padding: 0 10px;
-            color: var(--sea-blue);
-        }
-        .message {
-            margin-bottom: 15px;
-            display: flex;
-            flex-direction: column;
-        }
-        .message.user {
-            align-items: flex-end;
-        }
-        .message.bot {
-            align-items: flex-start;
-        }
-        .message .text {
-            display: inline-block;
-            padding: 10px 15px;
-            border-radius: 18px;
-            max-width: 80%;
-        }
-        .message.user .text {
-            background-color: var(--orange);
-            color: white;
-            border-bottom-right-radius: 4px;
-        }
-        .message.bot .text {
-            background-color: #e2e8f0;
-            color: var(--text-dark);
-            border-bottom-left-radius: 4px;
+            box-shadow: 0 4px 15px rgba(255, 107, 53, 0.4);
         }
 
-        /* Responsive */
         @media (max-width: 768px) {
-            .main-nav { display: none; } /* Simple hide for demo, real-world needs a burger menu */
-            #hero h1 { font-size: 2.5rem; }
-            .about-content, .contact-grid { grid-template-columns: 1fr; }
-            .process-grid, .services-grid, .work-grid, .footer-grid { grid-template-columns: 1fr; }
-        }
+            .nav-menu {
+                position: fixed;
+                left: -100%;
+                top: 80px;
+                flex-direction: column;
+                background: var(--white);
+                width: 100%;
+                padding: 2rem 0;
+                transition: 0.3s;
+            }
 
+            .nav-menu.active {
+                left: 0;
+            }
+
+            .hamburger {
+                display: flex;
+            }
+
+            .hero-content h1 {
+                font-size: 2.5rem;
+            }
+        }
     </style>
 </head>
 <body>
-
-    <header class="main-header">
-        <div class="container">
-            <a href="#" class="logo">Zinara<span>.</span></a>
-            <nav class="main-nav">
-                <ul>
-                    <li><a href="#about">About Us</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#work">Our Work</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-            <a href="#contact" class="btn btn-primary">Start Now</a>
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">ZINARA DIGITAL</a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#work">Our Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </div>
-    </header>
+    </nav>
 
-    <main>
-        <section id="hero">
-            <div class="container">
+    <section class="hero" id="home">
+        <div class="hero-container">
+            <div class="hero-content">
                 <h1>Unleash Your Digital Potential</h1>
-                <p>Zinara Digital Marketing Agency helps businesses build visibility, authority, and revenue through data-driven marketing systems designed for growth that lasts.</p>
-                <p class="tagline">Your Digital Growth. Simplified.</p>
-                <a href="#process" class="btn btn-primary">Our Process</a>
-            </div>
-        </section>
-
-        <section id="process">
-            <div class="container">
-                <div class="section-title">
-                    <h2>Simple, transparent, and designed to deliver results fast</h2>
-                    <p>Our process: clear steps to revenue</p>
-                </div>
-                <div class="process-grid">
-                    <div class="process-step">
-                        <div class="number">1</div>
-                        <h3>Audit & Quick Wins</h3>
-                        <p>We audit your funnel and deliver 3 quick wins you can apply immediately. (Day 0-7)</p>
-                    </div>
-                    <div class="process-step">
-                        <div class="number">2</div>
-                        <h3>Custom Growth Plan</h3>
-                        <p>A tailored 30-/90-day plan with projected ROI and clear milestones. (Day 7)</p>
-                    </div>
-                    <div class="process-step">
-                        <div class="number">3</div>
-                        <h3>Execute & Optimize</h3>
-                        <p>We run campaigns, optimize weekly, and report on revenue metrics. (Ongoing)</p>
-                    </div>
+                <p class="hero-subtitle">With Zinara Digital Marketing Agency</p>
+                <p class="hero-subtitle">Where Visibility Meets Conversion.</p>
+                <p>Zinara Digital Marketing Agency helps businesses build visibility, authority, and revenue through data driven marketing systems designed for growth that lasts.</p>
+                <p style="font-size: 1.3rem; color: var(--secondary-teal); font-weight: 600; margin-top: 1.5rem;">Your Digital Growth. Simplified.</p>
+                <div style="margin-top: 2.5rem;">
+                    <a href="#contact" class="cta-button">Start Your Journey</a>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section id="about">
-            <div class="container">
-                <div class="section-title">
-                    <h2>About Zinara Digital</h2>
-                    <p>"For those who refuse to stay invisible."</p>
+    <section class="section" style="background: linear-gradient(135deg, var(--cream) 0%, #FFE8DC 100%); text-align: center;">
+        <h2 style="font-size: 2.5rem; color: var(--dark-teal); margin-bottom: 1.5rem;">Partner with Us at Zinara Digital</h2>
+        <p style="font-size: 1.1rem; max-width: 900px; margin: 0 auto 1rem;">Where strategy meets creativity to help your business thrive.</p>
+        <p style="max-width: 900px; margin: 0 auto 2rem;">At Zinara Digital, we specialize in tailored digital marketing solutions that elevate your brand visibility, attract the right audience, and turn engagement into measurable growth. Whether you're building awareness, boosting conversions, or strengthening customer relationships, our team ensures your business stands out in the moments that matter.</p>
+        <p style="font-weight: 600; font-size: 1.2rem; color: var(--secondary-teal);">Your digital growth. Simplified.</p>
+        <a href="#contact" class="cta-button" style="margin-top: 2rem;">Start Your Journey</a>
+    </section>
+
+    <section class="section" style="background: var(--white);">
+        <div class="section-header">
+            <h2>Our process: clear steps to revenue</h2>
+            <p>Simple, transparent, and designed to deliver results fast</p>
+        </div>
+        <div class="grid-3">
+            <div class="card">
+                <div style="width: 60px; height: 60px; background: var(--primary-orange); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 1.8rem; font-weight: bold; margin-bottom: 1.5rem;">1</div>
+                <h3 style="font-size: 1.5rem; color: var(--dark-teal); margin-bottom: 1rem;">Audit & Quick Wins</h3>
+                <p style="color: var(--primary-orange); font-weight: 600; margin-bottom: 1rem;">(Day 0-7)</p>
+                <p>We audit your funnel and deliver 3 quick wins you can apply immediately.</p>
+            </div>
+            <div class="card">
+                <div style="width: 60px; height: 60px; background: var(--primary-orange); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 1.8rem; font-weight: bold; margin-bottom: 1.5rem;">2</div>
+                <h3 style="font-size: 1.5rem; color: var(--dark-teal); margin-bottom: 1rem;">Custom Growth Plan</h3>
+                <p style="color: var(--primary-orange); font-weight: 600; margin-bottom: 1rem;">(Day 7)</p>
+                <p>A tailored 30-/90-day plan with projected ROI and clear milestones.</p>
+            </div>
+            <div class="card">
+                <div style="width: 60px; height: 60px; background: var(--primary-orange); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 1.8rem; font-weight: bold; margin-bottom: 1.5rem;">3</div>
+                <h3 style="font-size: 1.5rem; color: var(--dark-teal); margin-bottom: 1rem;">Execute & Optimize</h3>
+                <p style="color: var(--primary-orange); font-weight: 600; margin-bottom: 1rem;">(Ongoing)</p>
+                <p>We run campaigns, optimize weekly, and report on revenue metrics.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="about" style="background: linear-gradient(135deg, var(--secondary-teal) 0%, var(--dark-teal) 100%); color: white;">
+        <div style="max-width: 1200px; margin: 0 auto;">
+            <p style="font-size: 2.5rem; text-align: center; margin-bottom: 2rem; font-style: italic; color: var(--primary-orange);">"For those who refuse to stay invisible."</p>
+            <p style="text-align: center; font-size: 1.2rem; margin-bottom: 3rem;">Zinara helps entrepreneurs, creators, and businesses turn visibility into growth. We engineer digital ecosystems powered by strategy, storytelling, and precision designed for those who refuse to stay invisible.</p>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; margin-top: 3rem;">
+                <div style="background: rgba(255, 255, 255, 0.1); padding: 2.5rem; border-radius: 15px;">
+                    <h3 style="font-size: 1.8rem; color: var(--primary-orange); margin-bottom: 1.5rem;">MISSION</h3>
+                    <p>Amplify business stories through smart digital marketing that builds trust and drives growth.</p>
                 </div>
-                <div class="about-content">
-                    <div>
-                        <h3>Our Mission</h3>
-                        <p>Zinara helps entrepreneurs, creators, and businesses turn visibility into growth. We engineer digital ecosystems powered by strategy, storytelling, and precision designed for those who refuse to stay invisible. Amplify business stories through smart digital marketing that builds trust and drives growth.</p>
-                    </div>
-                    <div>
-                        <h3>Our Vision</h3>
-                        <p>Our vision is to be a leading force in digital marketing empowering brands to share their stories with authenticity, creativity, and purpose, inspiring meaningful connections that drive growth, trust, and lasting impact worldwide.</p>
-                    </div>
+                <div style="background: rgba(255, 255, 255, 0.1); padding: 2.5rem; border-radius: 15px;">
+                    <h3 style="font-size: 1.8rem; color: var(--primary-orange); margin-bottom: 1.5rem;">VISION</h3>
+                    <p>Our vision is to be a leading force in digital marketing empowering brands to share their stories with authenticity, creativity, and purpose, inspiring meaningful connections that drive growth, trust, and lasting impact worldwide.</p>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section id="services">
-            <div class="container">
-                <div class="section-title">
-                    <h2>What We Do</h2>
-                    <p>At Zinara Digital, we craft strategies that turn visibility into momentum and marketing into measurable growth. We design digital ecosystems that connect, engage, and convert.</p>
+    <section class="section" style="background: var(--light-gray);">
+        <div style="max-width: 1400px; margin: 0 auto; text-align: center;">
+            <h2 style="font-size: 2.8rem; color: var(--dark-teal); margin-bottom: 1rem;">Unleash Your Business Digital Potential</h2>
+            <p style="font-size: 1.1rem; max-width: 1100px; margin: 0 auto 2rem;">At Zinara Digital, we craft strategies that turn visibility into momentum and marketing into measurable growth. Every brand has a story we bring it to life through insight, creativity, and precision execution. By blending data with intuition, we design digital ecosystems that connect, engage, and convert. The result is clarity, consistency, and lasting impact built for brands ready to grow with purpose.</p>
+            <p style="font-size: 1.4rem; color: var(--primary-orange); font-weight: 600;">Your Digital Growth. Simplified</p>
+        </div>
+    </section>
+
+    <section class="section" id="services" style="background: var(--white);">
+        <div style="max-width: 1400px; margin: 0 auto;">
+            <div class="section-header">
+                <h2>WHAT WE DO</h2>
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 3rem;">
+                <div class="service-card">
+                    <h3>Social Media Marketing & Management</h3>
+                    <p style="color: var(--primary-orange); font-weight: 600; margin-bottom: 1.5rem;">Your customers spend their attention. Are you?</p>
+                    <p>We turn social platforms into revenue channels. Strategic content that stops the scroll. Community management that builds trust. Ad campaigns that target buyers at the exact moment they're ready to act. Consistent presence without the daily grind.</p>
+                    <p style="font-weight: 600; margin-top: 1.5rem;">What you get:</p>
+                    <ul style="list-style: none; margin-top: 1rem;">
+                        <li style="padding: 0.5rem 0; padding-left: 1.5rem; position: relative;">Content that generates engagement and drives traffic to your site</li>
+                        <li style="padding: 0.5rem 0; padding-left: 1.5rem; position: relative;">Ad targeting that reaches decision-makers, not just audiences</li>
+                        <li style="padding: 0.5rem 0; padding-left: 1.5rem; position: relative;">Community management that turns followers into customers</li>
+                    </ul>
                 </div>
-                <div class="services-grid">
-                    <div class="service-card">
-                        <i data-feather="trending-up"></i>
-                        <h3>Social Media Marketing & Management</h3>
-                        <p>We turn social platforms into revenue channels. Strategic content that stops the scroll, community management that builds trust, and ad campaigns that target buyers.</p>
-                        <ul>
-                            <li><i data-feather="check-circle"></i>Facebook & Instagram Marketing</li>
-                            <li><i data-feather="check-circle"></i>Social Media Advertising</li>
-                            <li><i data-feather="check-circle"></i>Content Creation</li>
-                        </ul>
-                    </div>
-                    <div class="service-card">
-                        <i data-feather="search"></i>
-                        <h3>SEO, Content Marketing & Paid Ads</h3>
-                        <p>We put you in front of buyers when they're actively looking. SEO for purchase-intent searches, paid ads for decision-makers, and content that builds authority.</p>
-                         <ul>
-                            <li><i data-feather="check-circle"></i>SEO Services & Link Building</li>
-                            <li><i data-feather="check-circle"></i>Google Ads Management</li>
-                            <li><i data-feather="check-circle"></i>Content Marketing</li>
-                        </ul>
-                    </div>
-                    <div class="service-card">
-                        <i data-feather="users"></i>
-                        <h3>Virtual Assistant & Customer Management</h3>
-                        <p>Our VAs handle the daily work of keeping customers happy. Reputation monitoring, review responses, follow-up sequences, and social engagement.</p>
-                         <ul>
-                            <li><i data-feather="check-circle"></i>Online Reputation Management</li>
-                            <li><i data-feather="check-circle"></i>Customer Relationship Management</li>
-                            <li><i data-feather="check-circle"></i>Email Marketing</li>
-                        </ul>
-                    </div>
-                    <div class="service-card">
-                        <i data-feather="layout"></i>
-                        <h3>Web Design & Conversion Optimization</h3>
-                        <p>Your website should work like a salesperson who never sleeps. We remove confusion, eliminate hesitation, and guide visitors smoothly from curiosity to checkout.</p>
-                         <ul>
-                            <li><i data-feather="check-circle"></i>Conversion-Focused Web Design</li>
-                            <li><i data-feather="check-circle"></i>Landing Page Optimization</li>
-                            <li><i data-feather="check-circle"></i>A/B Testing</li>
-                        </ul>
-                    </div>
-                     <div class="service-card">
-                        <i data-feather="cpu"></i>
-                        <h3>Marketing Automation & AI Intelligence</h3>
-                        <p>While competitors guess, you'll predict and scale. We install intelligence into your marketing engine for forecasting, automation, and personalization.</p>
-                         <ul>
-                            <li><i data-feather="check-circle"></i>Predictive Analytics & AI Marketing</li>
-                            <li><i data-feather="check-circle"></i>Customer Data Intelligence</li>
-                            <li><i data-feather="check-circle"></i>Campaign Optimization</li>
-                        </ul>
-                    </div>
+
+                <div class="service-card">
+                    <h3>SEO, Content Marketing & Paid Ads</h3>
+                    <p style="color: var(--primary-orange); font-weight: 600; margin-bottom: 1.5rem;">Customers can't buy from a business they can't find.</p>
+                    <p>We put you in front of buyers when they're actively looking to spend. SEO that captures purchase-intent searches. Paid ads that target decision-makers, not browsers. Content that answers the questions keeping your customers up at 2am.</p>
+                    <p style="font-weight: 600; margin-top: 1.5rem;">What you get:</p>
+                    <ul style="list-style: none; margin-top: 1rem;">
+                        <li style="padding: 0.5rem 0; padding-left: 1.5rem;">First-page rankings for searches that actually convert</li>
+                        <li style="padding: 0.5rem 0; padding-left: 1.5rem;">Ad campaigns returning $4.20+ for every dollar spent</li>
+                        <li style="padding: 0.5rem 0; padding-left: 1.5rem;">Content that builds authority and drives qualified leads</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <h3>Virtual Assistant & Customer Management</h3>
+                    <p style="color: var(--primary-orange); font-weight: 600; margin-bottom: 1.5rem;">Acquiring a new customer costs 5X more than keeping one you already have.</p>
+                    <p>Our VAs handle the daily work of keeping customers happy and coming back. Reputation monitoring. Review responses. Follow-up sequences. Social engagement. The consistent touchpoints that turn one-time buyers into loyal advocates who refer without being asked.</p>
+                    <p style="font-weight: 600; margin-top: 1.5rem;">What you get:</p>
+                    <ul style="list-style: none; margin-top: 1rem;">
+                        <li style="padding: 0.5rem 0; padding-left: 1.5rem;">Reputation management that attracts 6+ more inbound inquiries</li>
+                        <li style="padding: 0.5rem 0; padding-left: 1.5rem;">Professional response systems that turn complaints into loyalty</li>
+                        <li style="padding: 0.5rem 0; padding-left: 1.5rem;">Automated follow-ups that bring customers back on schedule</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <h3>Web Design & Conversion Optimization</h3>
+                    <p style="color: var(--primary-orange); font-weight: 600; margin-bottom: 1.5rem;">97 out of 100 visitors leave without buying. Let's fix that.</p>
+                    <p>Your website should work like a salesperson who never sleeps. We remove the confusion, eliminate the hesitation, and guide visitors smoothly from curiosity to checkout. Every click intentional. Every form field tested. Every CTA optimized.</p>
+                    <p style="font-weight: 600; margin-top: 1.5rem;">What you get:</p>
+                    <ul style="list-style: none; margin-top: 1rem;">
+                        <li style="padding: 0.5rem 0; padding-left: 1.5rem;">Websites built to convert, not just look pretty</li>
+                        <li style="padding: 0.5rem 0; padding-left: 1.5rem;">Landing pages that turn 8-12% of traffic into leads</li>
+                        <li style="padding: 0.5rem 0; padding-left: 1.5rem;">Automation that follows up so you don't have to</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <h3>Marketing Automation & AI Intelligence</h3>
+                    <p style="color: var(--primary-orange); font-weight: 600; margin-bottom: 1.5rem;">While competitors guess, you'll predict and scale.</p>
+                    <p>We install intelligence into your marketing engine. Predictive models spot buying signals before competitors notice. Automation handles repetitive work at machine speed. Personalization delivers the right message to the right person without manual effort.</p>
+                    <p style="font-weight: 600; margin-top: 1.5rem;">What you get:</p>
+                    <ul style="list-style: none; margin-top: 1rem;">
+                        <li style="padding: 0.5rem 0; padding-left: 1.5rem;">Marketing that learns and improves automatically</li>
+                        <li style="padding: 0.5rem 0; padding-left: 1.5rem;">Behavioral insights that forecast what customers want next</li>
+                        <li style="padding: 0.5rem 0; padding-left: 1.5rem;">Campaigns that scale without scaling your workload</li>
+                    </ul>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section id="testimonials">
-            <div class="container">
-                <div class="section-title">
-                    <h2>What Our Clients Say</h2>
-                    <p>Our clients share their success stories and experiences working with us.</p>
+    <section class="section" style="background: var(--white);">
+        <div style="max-width: 1400px; margin: 0 auto;">
+            <div class="section-header">
+                <h2>What our client's say about Zinara Digital</h2>
+                <p>Our clients share their success stories and experiences working with us.</p>
+            </div>
+            <div class="testimonial-carousel">
+                <div class="testimonial-slide active">
+                    <h4 style="font-size: 1.5rem; color: var(--dark-teal); margin-bottom: 1.5rem;">Medvera Homecare</h4>
+                    <p style="font-size: 1.2rem; margin-bottom: 2rem;">Working with Zinara Digital transformed how families find our care. Their social media work, customer care, and online reputation management amplified our message, increased trust, and helped us connect with more families through prompt, compassionate support.</p>
+                    <p style="font-weight: 600; color: var(--dark-teal);">Medvera Homecare Team</p>
                 </div>
-                <div class="testimonial-carousel-container">
-                    <div class="testimonial-carousel">
-                        <!-- Slides will be injected by JS -->
-                    </div>
-                    <div class="carousel-nav">
-                        <button id="prev-btn"><i data-feather="chevron-left"></i></button>
-                        <button id="next-btn"><i data-feather="chevron-right"></i></button>
-                    </div>
+                <div class="testimonial-slide">
+                    <h4 style="font-size: 1.5rem; color: var(--dark-teal); margin-bottom: 1.5rem;">Elan Bags</h4>
+                    <p style="font-size: 1.2rem; margin-bottom: 2rem;">Zinara Digital lifted our brand visibility beyond expectations. Their content and social strategy doubled engagement and grew online sales by 250% in three months, turning our lookbook into a reliable sales channel.</p>
+                    <p style="font-weight: 600; color: var(--dark-teal);">Bridget Waceke</p>
+                    <p style="color: var(--primary-orange);">Managing Director, Elan Bags</p>
                 </div>
-                 <div class="carousel-dots">
-                    <!-- Dots will be injected by JS -->
+                <div class="testimonial-slide">
+                    <h4 style="font-size: 1.5rem; color: var(--dark-teal); margin-bottom: 1.5rem;">UrbanTribe Events</h4>
+                    <p style="font-size: 1.2rem; margin-bottom: 2rem;">Zinara Digital sold out three major events with targeted campaigns and automation. We reduced admin time by 60% and could focus on the event experience.</p>
+                    <p style="font-weight: 600; color: var(--dark-teal);">Joseph Mwangi</p>
+                    <p style="color: var(--primary-orange);">Founder, Urban Tribe Events</p>
+                </div>
+                <div class="testimonial-slide">
+                    <h4 style="font-size: 1.5rem; color: var(--dark-teal); margin-bottom: 1.5rem;">GlamFix Beauty Parlour</h4>
+                    <p style="font-size: 1.2rem; margin-bottom: 2rem;">Zinara's digital overhaul boosted our monthly clients by 40% and streamlined bookings with automation, making daily operations much smoother.</p>
+                    <p style="font-weight: 600; color: var(--dark-teal);">Azma Suleiman</p>
+                    <p style="color: var(--primary-orange);">Operations Manager, GlamFix Beauty Parlour</p>
                 </div>
             </div>
-        </section>
-
-        <section id="work">
-             <div class="container">
-                <div class="section-title">
-                    <h2>Our Work</h2>
-                    <p>Explore a showcase of our successful digital marketing campaigns and projects.</p>
+            <div class="carousel-controls">
+                <button class="carousel-btn" id="prevBtn">←</button>
+                <div style="display: flex; gap: 0.8rem;">
+                    <span class="dot active" data-slide="0"></span>
+                    <span class="dot" data-slide="1"></span>
+                    <span class="dot" data-slide="2"></span>
+                    <span class="dot" data-slide="3"></span>
                 </div>
-                <div class="work-grid">
-                    <div class="work-item">
-                        <img src="assets/work-1.jpg" alt="SEO Campaign for Tech Startup">
-                        <div class="work-content">
-                            <h3>SEO Campaign for Tech Startup</h3>
-                            <p>Increased organic traffic and search engine rankings through a tailored strategy focused on relevant keywords and quality content.</p>
-                        </div>
-                    </div>
-                    <div class="work-item">
-                        <img src="assets/work-2.jpg" alt="Social Media Campaign for Fashion Brand">
-                        <div class="work-content">
-                            <h3>Social Media Campaign for Fashion Brand</h3>
-                            <p>Amplified brand awareness and customer interactions with captivating visuals and targeted ads, leading to a rise in engagement and website traffic.</p>
-                        </div>
-                    </div>
-                    <div class="work-item">
-                        <img src="assets/work-3.jpg" alt="Content Marketing for E-Commerce">
-                        <div class="work-content">
-                            <h3>Content Marketing for E-Commerce Business</h3>
-                            <p>Generated a boost in conversion rates and customer retention by creating valuable, engaging content that established a loyal customer base.</p>
-                        </div>
-                    </div>
+                <button class="carousel-btn" id="nextBtn">→</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="work" style="background: var(--light-gray);">
+        <div style="max-width: 1400px; margin: 0 auto;">
+            <div class="section-header">
+                <h2>Our Work</h2>
+                <p>Explore a showcase of our successful digital marketing campaigns and projects.</p>
+            </div>
+            <div style="display: grid; gap: 2.5rem;">
+                <div style="background: white; padding: 2.5rem; border-radius: 15px;">
+                    <h3 style="font-size: 1.8rem; color: var(--dark-teal); margin-bottom: 1rem;">SEO Campaign for Tech Startup</h3>
+                    <h4 style="font-size: 1.3rem; color: var(--primary-orange); margin-bottom: 1rem;">Increasing Online Visibility</h4>
+                    <p>Our SEO campaign for a tech startup resulted in a significant increase in organic traffic and a boost in search engine rankings. The tailored strategy focused on relevant keywords and quality content.</p>
+                </div>
+                <div style="background: white; padding: 2.5rem; border-radius: 15px;">
+                    <h3 style="font-size: 1.8rem; color: var(--dark-teal); margin-bottom: 1rem;">Social Media Campaign for Fashion Brand</h3>
+                    <h4 style="font-size: 1.3rem; color: var(--primary-orange); margin-bottom: 1rem;">Enhancing Brand Engagement</h4>
+                    <p>Our social media campaign for a fashion brand led to a rise in follower engagement and an increase in website traffic. Through captivating visuals and targeted ads, we amplified brand awareness and customer interactions.</p>
+                </div>
+                <div style="background: white; padding: 2.5rem; border-radius: 15px;">
+                    <h3 style="font-size: 1.8rem; color: var(--dark-teal); margin-bottom: 1rem;">Content Marketing for E-Commerce Business</h3>
+                    <h4 style="font-size: 1.3rem; color: var(--primary-orange); margin-bottom: 1rem;">Driving Conversions Through Content</h4>
+                    <p>Our content marketing efforts for an e-commerce business generated a boost in conversion rates and customer retention. By creating valuable and engaging content, we established a loyal customer base and increased sales.</p>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section id="contact">
-            <div class="container">
-                 <div class="section-title">
-                    <h2>Contact Us</h2>
-                    <p>Let's start a conversation about your digital growth.</p>
-                </div>
-                <div class="contact-grid">
-                    <div class="contact-info">
-                        <h3>Get in Touch</h3>
-                        <p>We're here to help you navigate the digital landscape. Reach out to us for a consultation.</p>
-                        <ul>
-                            <li><i data-feather="map-pin"></i> Nairobi, Kenya</li>
-                            <li><i data-feather="phone"></i> +254704878872</li>
-                            <li><i data-feather="mail"></i> zinara-digital-2.com</li>
-                        </ul>
-                    </div>
-                    <div class="contact-form">
-                        <form action="#">
-                            <div class="form-group">
-                                <input type="text" name="first-name" placeholder="First Name" required>
-                                <input type="text" name="last-name" placeholder="Last Name" required>
-                            </div>
-                            <input type="email" name="email" placeholder="Email *" required>
-                            <button type="submit" class="btn btn-primary">Submit</button>
-                        </form>
-                    </div>
-                </div>
+    <section class="section" style="background: linear-gradient(135deg, var(--secondary-teal) 0%, var(--dark-teal) 100%); color: white; text-align: center;">
+        <h2 style="font-size: 2.8rem; margin-bottom: 2rem;">How We Drive Measurable Growth</h2>
+        <p style="font-size: 1.2rem; max-width: 900px; margin: 0 auto 3rem;">At Zinara Digital, we engineer digital ecosystems that amplify presence, accelerate conversions, and scale retention. We combine strategy, storytelling, and automation to turn attention into revenue.</p>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 3rem; max-width: 1400px; margin: 0 auto;">
+            <div>
+                <div style="font-size: 4rem; font-weight: bold; color: var(--primary-orange); margin-bottom: 1rem;">50+</div>
+                <div style="font-size: 1.3rem;">Businesses Grown</div>
             </div>
-        </section>
+            <div>
+                <div style="font-size: 4rem; font-weight: bold; color: var(--primary-orange); margin-bottom: 1rem;">250%</div>
+                <div style="font-size: 1.3rem;">Average Revenue Increase</div>
+            </div>
+            <div>
+                <div style="font-size: 4rem; font-weight: bold; color: var(--primary-orange); margin-bottom: 1rem;">98%</div>
+                <div style="font-size: 1.3rem;">Client Retention Rate</div>
+            </div>
+        </div>
+        <p style="font-size: 1.1rem; margin-top: 3rem;">Strategy → Execution → Optimization<br>We diagnose funnels, execute targeted campaigns, and run continual testing for compounding results.</p>
+    </section>
 
-    </main>
+    <section class="section" id="contact" style="background: var(--cream);">
+        <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+            <h2 style="font-size: 2.5rem; color: var(--dark-teal); margin-bottom: 2rem;">Contact Us</h2>
+            <div style="margin-bottom: 2rem;">
+                <p style="font-size: 1.2rem; margin-bottom: 0.5rem;">📞 <strong>+254 704 878 872</strong></p>
+                <p style="font-size: 1.1rem;">📍 Nairobi, Kenya</p>
+            </div>
+            <form id="contactForm" style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-top: 2rem;">
+                <input type="text" placeholder="First Name" required style="padding: 1rem; border: 2px solid var(--light-gray); border-radius: 8px; font-size: 1rem;">
+                <input type="text" placeholder="Last Name" required style="padding: 1rem; border: 2px solid var(--light-gray); border-radius: 8px; font-size: 1rem;">
+                <input type="email" placeholder="Email *" required style="grid-column: 1 / -1; padding: 1rem; border: 2px solid var(--light-gray); border-radius: 8px; font-size: 1rem;">
+                <button type="submit" class="cta-button" style="grid-column: 1 / -1; width: 100%;">Submit</button>
+            </form>
+        </div>
+    </section>
 
     <footer>
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-col">
-                    <h4>Zinara Digital</h4>
-                    <p>Your digital growth partner.</p>
-                </div>
-                <div class="footer-col">
-                    <h4>Quick Links</h4>
-                    <a href="#about">About Us</a>
-                    <a href="#services">Services</a>
-                    <a href="#work">Our Work</a>
-                    <a href="#contact">Contact</a>
-                </div>
-                <div class="footer-col">
-                    <h4>Legal</h4>
-                    <a href="#">Privacy Policy</a>
-                    <a href="#">Accessibility Statement</a>
-                </div>
-                 <div class="footer-col">
-                    <h4>Contact</h4>
-                    <p>Nairobi, Kenya</p>
-                    <p>+254704878872</p>
-                    <p>zinara-digital-2.com</p>
-                </div>
+        <div class="footer-grid">
+            <div class="footer-section">
+                <h3>ZINARA DIGITAL</h3>
+                <p>Your digital growth partner.</p>
+                <p style="margin-top: 1rem;">📞 +254 704 878 872</p>
+                <p>📍 Nairobi, Kenya</p>
             </div>
-            <div class="footer-bottom">
-                <p>&copy; 2025 Zinara Digital Marketing. All rights reserved.</p>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <a href="#home">Home</a>
+                <a href="#about">About Us</a>
+                <a href="#services">Services</a>
+                <a href="#work">Our Work</a>
+                <a href="#contact">Contact</a>
             </div>
+            <div class="footer-section">
+                <h3>Legal</h3>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Accessibility Statement</a>
+            </div>
+        </div>
+        <div style="text-align: center; padding-top: 2rem; border-top: 1px solid rgba(255,255,255,0.1);">
+            <p>&copy; 2025 Zinara Digital Marketing. All rights reserved.</p>
         </div>
     </footer>
 
-    <!-- AI Chatbot -->
-    <button id="chatbot-toggler">
-        <i data-feather="message-square"></i>
-    </button>
-    <div id="chatbot-container">
-        <div class="chat-header">Chat with us</div>
-        <div class="chat-messages" id="chat-messages">
-             <div class="message bot"><div class="text">Hello! How can I help you today?</div></div>
-        </div>
-        <div class="chat-input">
-            <input type="text" id="user-input" placeholder="Type your message...">
-            <button id="send-chat-btn"><i data-feather="send"></i></button>
-        </div>
+    <div class="chatbot">
+        <button class="chat-button" id="chatBtn">💬</button>
     </div>
 
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            // Initialize Feather Icons
-            feather.replace();
+        const hamburger = document.getElementById('hamburger');
+        const navMenu = document.getElementById('navMenu');
+        hamburger.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
 
-            // --- Testimonials Carousel ---
-            const testimonials = [
-                {
-                    quote: "Working with Zinara Digital transformed how families find our care. Their social media work, customer care, and online reputation management amplified our message, increased trust, and helped us connect with more families through prompt, compassionate support.",
-                    author: "Medvera Homecare Team",
-                    title: "Medvera Homecare"
-                },
-                {
-                    quote: "Zinara Digital lifted our brand visibility beyond expectations. Their content and social strategy doubled engagement and grew online sales by 250% in three months, turning our lookbook into a reliable sales channel.",
-                    author: "Bridget Waceke",
-                    title: "Managing Director, Elan Bags"
-                },
-                {
-                    quote: "Zinara Digital sold out three major events with targeted campaigns and automation. We reduced admin time by 60% and could focus on the event experience.",
-                    author: "Joseph Mwangi",
-                    title: "Founder, UrbanTribe Events"
-                },
-                {
-                    quote: "Zinara's digital overhaul boosted our monthly clients by 40% and streamlined bookings with automation, making daily operations much smoother.",
-                    author: "Azma Suleiman",
-                    title: "Operations Manager, GlamFix Beauty Parlour"
-                }
-            ];
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.testimonial-slide');
+        const dots = document.querySelectorAll('.dot');
 
-            const carousel = document.querySelector('.testimonial
+        function showSlide(n) {
+            slides.forEach(s => s.classList.remove('active'));
+            dots.forEach(d => d.classList.remove('active'));
+            currentSlide = (n + slides.length) % slides.length;
+            slides[currentSlide].classList.add('active');
+            dots[currentSlide].classList.add('active');
+        }
+
+        document.getElementById('nextBtn').addEventListener('click', () => showSlide(currentSlide + 1));
+        document.getElementById('prevBtn').addEventListener('click', () => showSlide(currentSlide - 1));
+        dots.forEach(dot => dot.addEventListener('click', () => showSlide(parseInt(dot.dataset.slide))));
+        setInterval(() => showSlide(currentSlide + 1), 5000);
+
+        document.getElementById('contactForm').addEventListener('submit', (e) => {
+            e.preventDefault();
+            alert('Thank you! We will contact you soon.');
+            e.target.reset();
+        });
+    </script>
+</body>
+</html>
