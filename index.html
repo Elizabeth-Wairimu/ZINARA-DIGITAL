@@ -48,7 +48,6 @@
             padding: 0 20px;
         }
 
-        /* --- Header & Navigation --- */
         .main-header {
             background-color: var(--white);
             padding: 15px 0;
@@ -112,7 +111,6 @@
             transform: translateY(-2px);
         }
         
-        /* --- Hero Section --- */
         #hero {
             background-color: var(--light-blush);
             padding: 80px 0;
@@ -140,7 +138,6 @@
             font-size: 1.3rem;
         }
 
-        /* --- Sections --- */
         section {
             padding: 80px 0;
         }
@@ -163,7 +160,6 @@
             margin: 0 auto;
         }
 
-        /* --- Process Section --- */
         .process-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -201,7 +197,6 @@
             margin-bottom: 10px;
         }
 
-        /* --- About Section --- */
         #about {
             background-color: var(--light-blush);
         }
@@ -217,7 +212,6 @@
             margin-bottom: 15px;
         }
 
-        /* --- Services Section --- */
         .services-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -258,7 +252,6 @@
             margin-bottom: 0;
         }
 
-        /* --- Testimonials Section --- */
         #testimonials {
             background-color: var(--deep-teal);
             color: var(--white);
@@ -272,7 +265,7 @@
             max-width: 800px;
             margin: 0 auto;
             overflow: hidden;
-            min-height: 300px; /* Set a min-height to avoid layout shifts */
+            min-height: 300px;
         }
 
         .testimonial-carousel {
@@ -282,7 +275,7 @@
 
         .testimonial-slide {
             min-width: 100%;
-            padding: 20px 60px; /* Padding for nav buttons */
+            padding: 20px 60px;
             text-align: center;
             opacity: 0;
             position: absolute;
@@ -362,7 +355,6 @@
 
         .dot.active, .dot:hover { background-color: var(--orange); }
 
-        /* --- Work Section --- */
         .work-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -386,7 +378,6 @@
         }
         .work-content h3 { margin-bottom: 10px; }
 
-        /* --- Contact Section --- */
         #contact {
             background-color: var(--light-blush);
         }
@@ -430,7 +421,6 @@
             border-color: var(--orange);
         }
 
-        /* --- Footer --- */
         footer {
             background-color: var(--deep-teal);
             color: var(--white);
@@ -467,7 +457,6 @@
             color: var(--gray-accent);
         }
 
-        /* --- AI Chatbot --- */
         #chatbot-toggler {
             position: fixed;
             bottom: 30px;
@@ -576,14 +565,12 @@
             border-bottom-left-radius: 4px;
         }
 
-        /* Responsive */
         @media (max-width: 768px) {
-            .main-nav { display: none; } /* Simple hide for demo, real-world needs a burger menu */
+            .main-nav { display: none; }
             #hero h1 { font-size: 2.5rem; }
             .about-content, .contact-grid { grid-template-columns: 1fr; }
             .process-grid, .services-grid, .work-grid, .footer-grid { grid-template-columns: 1fr; }
         }
-
     </style>
 </head>
 <body>
@@ -824,6 +811,172 @@
                     <a href="#">Accessibility Statement</a>
                 </div>
                  <div class="footer-col">
+                    <h4>Contact        <section id="services">
+            <div class="container">
+                <div class="section-title">
+                    <h2>What We Do</h2>
+                    <p>At Zinara Digital, we craft strategies that turn visibility into momentum and marketing into measurable growth. We design digital ecosystems that connect, engage, and convert.</p>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <i data-feather="trending-up"></i>
+                        <h3>Social Media Marketing & Management</h3>
+                        <p>We turn social platforms into revenue channels. Strategic content that stops the scroll, community management that builds trust, and ad campaigns that target buyers.</p>
+                        <ul>
+                            <li><i data-feather="check-circle"></i>Facebook & Instagram Marketing</li>
+                            <li><i data-feather="check-circle"></i>Social Media Advertising</li>
+                            <li><i data-feather="check-circle"></i>Content Creation</li>
+                        </ul>
+                    </div>
+                    <div class="service-card">
+                        <i data-feather="search"></i>
+                        <h3>SEO, Content Marketing & Paid Ads</h3>
+                        <p>We put you in front of buyers when they're actively looking. SEO for purchase-intent searches, paid ads for decision-makers, and content that builds authority.</p>
+                         <ul>
+                            <li><i data-feather="check-circle"></i>SEO Services & Link Building</li>
+                            <li><i data-feather="check-circle"></i>Google Ads Management</li>
+                            <li><i data-feather="check-circle"></i>Content Marketing</li>
+                        </ul>
+                    </div>
+                    <div class="service-card">
+                        <i data-feather="users"></i>
+                        <h3>Virtual Assistant & Customer Management</h3>
+                        <p>Our VAs handle the daily work of keeping customers happy. Reputation monitoring, review responses, follow-up sequences, and social engagement.</p>
+                         <ul>
+                            <li><i data-feather="check-circle"></i>Online Reputation Management</li>
+                            <li><i data-feather="check-circle"></i>Customer Relationship Management</li>
+                            <li><i data-feather="check-circle"></i>Email Marketing</li>
+                        </ul>
+                    </div>
+                    <div class="service-card">
+                        <i data-feather="layout"></i>
+                        <h3>Web Design & Conversion Optimization</h3>
+                        <p>Your website should work like a salesperson who never sleeps. We remove confusion, eliminate hesitation, and guide visitors smoothly from curiosity to checkout.</p>
+                         <ul>
+                            <li><i data-feather="check-circle"></i>Conversion-Focused Web Design</li>
+                            <li><i data-feather="check-circle"></i>Landing Page Optimization</li>
+                            <li><i data-feather="check-circle"></i>A/B Testing</li>
+                        </ul>
+                    </div>
+                     <div class="service-card">
+                        <i data-feather="cpu"></i>
+                        <h3>Marketing Automation & AI Intelligence</h3>
+                        <p>While competitors guess, you'll predict and scale. We install intelligence into your marketing engine for forecasting, automation, and personalization.</p>
+                         <ul>
+                            <li><i data-feather="check-circle"></i>Predictive Analytics & AI Marketing</li>
+                            <li><i data-feather="check-circle"></i>Customer Data Intelligence</li>
+                            <li><i data-feather="check-circle"></i>Campaign Optimization</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials">
+            <div class="container">
+                <div class="section-title">
+                    <h2>What Our Clients Say</h2>
+                    <p>Our clients share their success stories and experiences working with us.</p>
+                </div>
+                <div class="testimonial-carousel-container">
+                    <div class="testimonial-carousel">
+                        <!-- Slides will be injected by JS -->
+                    </div>
+                    <div class="carousel-nav">
+                        <button id="prev-btn"><i data-feather="chevron-left"></i></button>
+                        <button id="next-btn"><i data-feather="chevron-right"></i></button>
+                    </div>
+                </div>
+                 <div class="carousel-dots">
+                    <!-- Dots will be injected by JS -->
+                </div>
+            </div>
+        </section>
+
+        <section id="work">
+             <div class="container">
+                <div class="section-title">
+                    <h2>Our Work</h2>
+                    <p>Explore a showcase of our successful digital marketing campaigns and projects.</p>
+                </div>
+                <div class="work-grid">
+                    <div class="work-item">
+                        <img src="assets/work-1.jpg" alt="SEO Campaign for Tech Startup">
+                        <div class="work-content">
+                            <h3>SEO Campaign for Tech Startup</h3>
+                            <p>Increased organic traffic and search engine rankings through a tailored strategy focused on relevant keywords and quality content.</p>
+                        </div>
+                    </div>
+                    <div class="work-item">
+                        <img src="assets/work-2.jpg" alt="Social Media Campaign for Fashion Brand">
+                        <div class="work-content">
+                            <h3>Social Media Campaign for Fashion Brand</h3>
+                            <p>Amplified brand awareness and customer interactions with captivating visuals and targeted ads, leading to a rise in engagement and website traffic.</p>
+                        </div>
+                    </div>
+                    <div class="work-item">
+                        <img src="assets/work-3.jpg" alt="Content Marketing for E-Commerce">
+                        <div class="work-content">
+                            <h3>Content Marketing for E-Commerce Business</h3>
+                            <p>Generated a boost in conversion rates and customer retention by creating valuable, engaging content that established a loyal customer base.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                 <div class="section-title">
+                    <h2>Contact Us</h2>
+                    <p>Let's start a conversation about your digital growth.</p>
+                </div>
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h3>Get in Touch</h3>
+                        <p>We're here to help you navigate the digital landscape. Reach out to us for a consultation.</p>
+                        <ul>
+                            <li><i data-feather="map-pin"></i> Nairobi, Kenya</li>
+                            <li><i data-feather="phone"></i> +254704878872</li>
+                            <li><i data-feather="mail"></i> zinara-digital-2.com</li>
+                        </ul>
+                    </div>
+                    <div class="contact-form">
+                        <form action="#">
+                            <div class="form-group">
+                                <input type="text" name="first-name" placeholder="First Name" required>
+                                <input type="text" name="last-name" placeholder="Last Name" required>
+                            </div>
+                            <input type="email" name="email" placeholder="Email *" required>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Zinara Digital</h4>
+                    <p>Your digital growth partner.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <a href="#about">About Us</a>
+                    <a href="#services">Services</a>
+                    <a href="#work">Our Work</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Accessibility Statement</a>
+                </div>
+                 <div class="footer-col">
                     <h4>Contact</h4>
                     <p>Nairobi, Kenya</p>
                     <p>+254704878872</p>
@@ -880,4 +1033,155 @@
                 }
             ];
 
-            const carousel = document.querySelector('.testimonial
+            const carousel = document.querySelector('.testimonial-carousel');
+            const dotsContainer = document.querySelector('.carousel-dots');
+            let currentIndex = 0;
+            let intervalId;
+
+            function createCarousel() {
+                if (!carousel || !dotsContainer) return;
+
+                carousel.innerHTML = '';
+                dotsContainer.innerHTML = '';
+
+                testimonials.forEach((t, index) => {
+                    // Create Slide
+                    const slide = document.createElement('div');
+                    slide.className = 'testimonial-slide';
+                    if (index === 0) slide.classList.add('active');
+                    slide.innerHTML = `
+                        <p>"${t.quote}"</p>
+                        <div class="testimonial-author">
+                            ${t.author}
+                            <span>${t.title}</span>
+                        </div>
+                    `;
+                    carousel.appendChild(slide);
+
+                    // Create Dot
+                    const dot = document.createElement('span');
+                    dot.className = 'dot';
+                    if (index === 0) dot.classList.add('active');
+                    dot.dataset.index = index;
+                    dotsContainer.appendChild(dot);
+                });
+            }
+
+            function showSlide(index) {
+                const slides = document.querySelectorAll('.testimonial-slide');
+                const dots = document.querySelectorAll('.dot');
+
+                if (index >= slides.length) currentIndex = 0;
+                if (index < 0) currentIndex = slides.length - 1;
+
+                slides.forEach(slide => slide.classList.remove('active'));
+                dots.forEach(dot => dot.classList.remove('active'));
+
+                slides[currentIndex].classList.add('active');
+                dots[currentIndex].classList.add('active');
+
+                carousel.style.transform = `translateX(-${currentIndex * 100}%)`;
+            }
+
+            function nextSlide() {
+                currentIndex++;
+                showSlide(currentIndex);
+            }
+
+            function prevSlide() {
+                currentIndex--;
+                showSlide(currentIndex);
+            }
+
+            function startCarousel() {
+                intervalId = setInterval(nextSlide, 5000); // Auto-rotate every 5 seconds
+            }
+
+            function stopCarousel() {
+                clearInterval(intervalId);
+            }
+
+            function setupCarousel() {
+                createCarousel();
+                const prevBtn = document.getElementById('prev-btn');
+                const nextBtn = document.getElementById('next-btn');
+                const dots = document.querySelectorAll('.dot');
+
+                if(prevBtn) prevBtn.addEventListener('click', () => {
+                    prevSlide();
+                    stopCarousel();
+                    startCarousel();
+                });
+
+                if(nextBtn) nextBtn.addEventListener('click', () => {
+                    nextSlide();
+                    stopCarousel();
+                    startCarousel();
+                });
+
+                dots.forEach(dot => {
+                    dot.addEventListener('click', (e) => {
+                        currentIndex = parseInt(e.target.dataset.index);
+                        showSlide(currentIndex);
+                        stopCarousel();
+                        startCarousel();
+                    });
+                });
+                
+                const slides = document.querySelectorAll('.testimonial-slide');
+                if (slides.length > 0) {
+                    slides[0].classList.add('active');
+                    dots[0].classList.add('active');
+                    carousel.style.transform = `translateX(0%)`;
+                }
+
+                startCarousel();
+            }
+
+            // --- AI Chatbot --- 
+            const chatbotToggler = document.getElementById('chatbot-toggler');
+            const chatbotContainer = document.getElementById('chatbot-container');
+            const chatMessages = document.getElementById('chat-messages');
+            const userInput = document.getElementById('user-input');
+            const sendChatBtn = document.getElementById('send-chat-btn');
+
+            function toggleChatbot() {
+                chatbotContainer.classList.toggle('open');
+            }
+
+            function addMessage(text, sender) {
+                const messageDiv = document.createElement('div');
+                messageDiv.className = `message ${sender}`;
+                messageDiv.innerHTML = `<div class="text">${text}</div>`;
+                chatMessages.appendChild(messageDiv);
+                chatMessages.scrollTop = chatMessages.scrollHeight;
+            }
+
+            function handleChat() {
+                const message = userInput.value.trim();
+                if (message) {
+                    addMessage(message, 'user');
+                    userInput.value = '';
+                    setTimeout(() => {
+                        addMessage("Thanks for your message! How can I assist you further?", 'bot');
+                    }, 1000);
+                }
+            }
+
+            function setupChatbot() {
+                if (chatbotToggler) chatbotToggler.addEventListener('click', toggleChatbot);
+                if (sendChatBtn) sendChatBtn.addEventListener('click', handleChat);
+                if (userInput) userInput.addEventListener('keypress', function(e) {
+                    if (e.key === 'Enter') {
+                        handleChat();
+                    }
+                });
+            }
+
+            // Initialize all components
+            setupCarousel();
+            setupChatbot();
+        });
+    </script>
+</body>
+</html>
