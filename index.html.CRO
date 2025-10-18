@@ -1,0 +1,949 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zinara Digital Marketing | Double Your Leads in 90 Days - Guaranteed Results</title>
+    <meta name="description" content="Double your leads in 90 days with Zinara Digital Marketing. Data-driven strategies for African businesses. 250% average revenue increase. 98% client retention. Book your free strategy call today.">
+    <meta name="keywords" content="digital marketing Kenya, lead generation Africa, conversion optimization, SEO services Nairobi, social media marketing Kenya, growth marketing agency Africa">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">Zinara<span>Digital</span></div>
+            <nav class="nav">
+                <a href="#home">Home</a>
+                <a href="#results">Results</a>
+                <a href="#process">How We Work</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <a href="#contact" class="cta-btn">Book Strategy Call</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>Double Your Leads in <span class="highlight">90 Days</span> — Through Predictable Digital Systems</h1>
+                <p class="hero-subheadline">We build customized digital funnels that attract, convert & retain your ideal clients — without guesswork or fluff.</p>
+                
+                <ul class="hero-bullets">
+                    <li>Generate qualified leads on autopilot</li>
+                    <li>Improve conversion rates and ROAS</li>
+                    <li>Retain customers with automated nurture journeys</li>
+                </ul>
+
+                <div class="hero-cta-group">
+                    <a href="#contact" class="btn-primary">Start My Growth Plan</a>
+                    <a href="#process" class="btn-secondary">See How It Works</a>
+                </div>
+                <p class="hero-microcopy">✓ No obligations — just strategic clarity | ✓ 30-minute call, zero hard sell</p>
+
+                <div class="trust-bar">
+                    <p class="trust-bar-label">Trusted by 50+ brands across Kenya & beyond</p>
+                    <div class="trust-logos">
+                        <div class="trust-stat"><strong>250%</strong> Avg Revenue Increase</div>
+                        <div class="trust-stat"><strong>98%</strong> Client Retention</div>
+                        <div class="trust-stat"><strong>50+</strong> Businesses Grown</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">2×</div>
+                        <div class="stat-label">Qualified Leads</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">30-50%</div>
+                        <div class="stat-label">Conversion Uplift</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">90 Days</div>
+                        <div class="stat-label">To Measurable Growth</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pain/Problem Section -->
+    <section class="pain-section">
+        <div class="pain-container">
+            <h2>Still Paying for Ads That Don't Convert?</h2>
+            <p class="pain-intro">You wouldn't pour money into a leaky bucket — yet many businesses treat marketing that way. That's where we come in.</p>
+
+            <div class="pain-grid">
+                <div class="pain-card">
+                    <div class="pain-icon">💸</div>
+                    <h3>Wasting Budget on Random Tactics</h3>
+                    <p>You get traffic, but it goes nowhere. Leads are unqualified or ghost you after first contact.</p>
+                </div>
+                <div class="pain-card">
+                    <div class="pain-icon">📉</div>
+                    <h3>No Scalable Sales Process</h3>
+                    <p>Every sale feels like starting from scratch. No repeatability, no predictable revenue engine.</p>
+                </div>
+                <div class="pain-card">
+                    <div class="pain-icon">🎯</div>
+                    <h3>Low Quality Leads</h3>
+                    <p>Your ads reach people, but they're not your ideal customers. High cost, low return.</p>
+                </div>
+                <div class="pain-card">
+                    <div class="pain-icon">⏱️</div>
+                    <h3>Stuck at Revenue Ceiling</h3>
+                    <p>You've hit a plateau. Growth has stalled and you don't know what lever to pull next.</p>
+                </div>
+            </div>
+
+            <div class="pain-cta">
+                <a href="#contact" class="btn-light">Show Me the Fix</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Transformation/Promise Section -->
+    <section class="transformation-section">
+        <div class="transformation-container">
+            <div class="section-header">
+                <p class="section-label">Your Transformation</p>
+                <h2 class="section-title">What You'll Achieve in 90 Days</h2>
+                <p class="section-subtitle">No fluff, just measurable growth that compounds month after month.</p>
+            </div>
+
+            <div class="outcome-grid">
+                <div class="outcome-card">
+                    <div class="outcome-number">2×</div>
+                    <h3 class="outcome-title">Qualified Leads</h3>
+                    <p class="outcome-description">Double your inbound leads with targeted campaigns that attract your ideal customers ready to buy.</p>
+                </div>
+                <div class="outcome-card">
+                    <div class="outcome-number">30-50%</div>
+                    <h3 class="outcome-title">Conversion Rate Uplift</h3>
+                    <p class="outcome-description">Optimize every touchpoint in your funnel to turn more visitors into paying customers.</p>
+                </div>
+                <div class="outcome-card">
+                    <div class="outcome-number">100%</div>
+                    <h3 class="outcome-title">Predictable Sales Funnel</h3>
+                    <p class="outcome-description">Build a repeatable system that fuels consistent growth and repeat purchases.</p>
+                </div>
+                <div class="outcome-card">
+                    <div class="outcome-number">24/7</div>
+                    <h3 class="outcome-title">Automated Growth Engine</h3>
+                    <p class="outcome-description">Marketing automation that works while you sleep, nurturing leads and closing sales.</p>
+                </div>
+            </div>
+
+            <div class="transformation-footer">
+                <p class="transformation-tagline">Monthly growth reports showing revenue impact — not vanity metrics</p>
+                <a href="#contact" class="btn-primary">Show Me the Results</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services-section" id="services">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-subtitle">What We Do</p>
+                <h2 class="section-title">Your Digital Growth. Simplified</h2>
+            </div>
+
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card">
+                    <div class="service-icon">1</div>
+                    <h3 class="service-title">Social Media Marketing and Management</h3>
+                    <p class="service-tagline">Where your audience scrolls, we make them stop.</p>
+                    <p class="service-description">Your customers spend hours on social media every day. We help your brand cut through the noise with content that sparks engagement, ads that drive traffic, and community management that builds long term trust.</p>
+                    <div class="categories">
+                        <div class="category-tags">
+                            <span class="category-tag">Facebook Marketing</span>
+                            <span class="category-tag">Instagram Management</span>
+                            <span class="category-tag">LinkedIn Strategy</span>
+                            <span class="category-tag">TikTok Marketing</span>
+                            <span class="category-tag">YouTube Advertising</span>
+                            <span class="category-tag">Content Creation</span>
+                        </div>
+                    </div>
+                    <button class="expand-btn" onclick="toggleExpand(this)">
+                        <span class="expand-icon"></span>
+                        <span>View Details</span>
+                    </button>
+                    <div class="expandable-content">
+                        <div class="what-you-get">
+                            <h4>What you get:</h4>
+                            <ul>
+                                <li>High-quality content that grabs attention</li>
+                                <li>Targeted social ads that reach real buyers</li>
+                                <li>Consistent engagement and brand interaction</li>
+                                <li>Strategies backed by data and creativity</li>
+                            </ul>
+                        </div>
+                        <div class="service-result">
+                            <strong>Result:</strong>
+                            <p>Social media platforms that work as full time revenue engines for your brand.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="service-card">
+                    <div class="service-icon">2</div>
+                    <h3 class="service-title">Branding and Creative Design</h3>
+                    <p class="service-tagline">Build the story before you share it.</p>
+                    <p class="service-description">Your brand is more than a logo. It is your first impression, your promise, and your personality. We help you shape a brand that people recognize, trust, and connect with.</p>
+                    <div class="categories">
+                        <div class="category-tags">
+                            <span class="category-tag">Brand Identity Development</span>
+                            <span class="category-tag">Logo Design</span>
+                            <span class="category-tag">Brand Strategy</span>
+                            <span class="category-tag">Visual Communication</span>
+                            <span class="category-tag">Corporate Design</span>
+                        </div>
+                    </div>
+                    <button class="expand-btn" onclick="toggleExpand(this)">
+                        <span class="expand-icon"></span>
+                        <span>View Details</span>
+                    </button>
+                    <div class="expandable-content">
+                        <div class="what-you-get">
+                            <h4>What you get:</h4>
+                            <ul>
+                                <li>Brand identity and logo design</li>
+                                <li>Visual systems that reflect your values</li>
+                                <li>Consistent messaging across all platforms</li>
+                                <li>Creative design for both digital and print</li>
+                            </ul>
+                        </div>
+                        <div class="service-result">
+                            <strong>Result:</strong>
+                            <p>A recognizable brand presence that inspires confidence and builds loyalty.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="service-card">
+                    <div class="service-icon">3</div>
+                    <h3 class="service-title">SEO, Content Marketing and Paid Ads</h3>
+                    <p class="service-tagline">Visibility that converts.</p>
+                    <p class="service-description">We make sure your business appears where decisions happen. Through search optimization, content strategy, and targeted ad campaigns, your brand gets seen by people ready to take action.</p>
+                    <div class="categories">
+                        <div class="category-tags">
+                            <span class="category-tag">SEO Services</span>
+                            <span class="category-tag">Google Ads</span>
+                            <span class="category-tag">Meta Advertising</span>
+                            <span class="category-tag">Content Marketing</span>
+                            <span class="category-tag">Link Building</span>
+                        </div>
+                    </div>
+                    <button class="expand-btn" onclick="toggleExpand(this)">
+                        <span class="expand-icon"></span>
+                        <span>View Details</span>
+                    </button>
+                    <div class="expandable-content">
+                        <div class="what-you-get">
+                            <h4>What you get:</h4>
+                            <ul>
+                                <li>Search engine optimization that improves visibility</li>
+                                <li>Paid advertising that delivers measurable ROI</li>
+                                <li>Content that builds authority and relevance</li>
+                                <li>Performance tracking and reporting</li>
+                            </ul>
+                        </div>
+                        <div class="service-result">
+                            <strong>Result:</strong>
+                            <p>Steady traffic, higher rankings, and campaigns that turn visibility into sales.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="service-card">
+                    <div class="service-icon">4</div>
+                    <h3 class="service-title">Influencer and Partnership Marketing</h3>
+                    <p class="service-tagline">Authenticity builds faster than ads.</p>
+                    <p class="service-description">We connect your brand with the right voices people your audience already trusts. Every campaign is built to create genuine relationships, authentic content, and measurable growth.</p>
+                    <div class="categories">
+                        <div class="category-tags">
+                            <span class="category-tag">Influencer Marketing</span>
+                            <span class="category-tag">Brand Collaboration</span>
+                            <span class="category-tag">Affiliate Programs</span>
+                            <span class="category-tag">Campaign Analytics</span>
+                            <span class="category-tag">User Generated Content Strategy</span>
+                        </div>
+                    </div>
+                    <button class="expand-btn" onclick="toggleExpand(this)">
+                        <span class="expand-icon"></span>
+                        <span>View Details</span>
+                    </button>
+                    <div class="expandable-content">
+                        <div class="what-you-get">
+                            <h4>What you get:</h4>
+                            <ul>
+                                <li>Influencer selection and management</li>
+                                <li>Campaign planning and coordination</li>
+                                <li>Partnership outreach and collaborations</li>
+                                <li>Performance tracking and reporting</li>
+                            </ul>
+                        </div>
+                        <div class="service-result">
+                            <strong>Result:</strong>
+                            <p>Credible partnerships that expand reach, build trust, and grow your brand organically.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="service-card">
+                    <div class="service-icon">5</div>
+                    <h3 class="service-title">Web Design and Conversion Optimization</h3>
+                    <p class="service-tagline">Your website should sell, not just exist.</p>
+                    <p class="service-description">Your website is often your first chance to impress. We design responsive, user-focused sites that guide visitors effortlessly from interest to action.</p>
+                    <div class="categories">
+                        <div class="category-tags">
+                            <span class="category-tag">Web Design</span>
+                            <span class="category-tag">Conversion Rate Optimization</span>
+                            <span class="category-tag">Landing Pages</span>
+                            <span class="category-tag">E-commerce Design</span>
+                            <span class="category-tag">CRM Setup</span>
+                        </div>
+                    </div>
+                    <button class="expand-btn" onclick="toggleExpand(this)">
+                        <span class="expand-icon"></span>
+                        <span>View Details</span>
+                    </button>
+                    <div class="expandable-content">
+                        <div class="what-you-get">
+                            <h4>What you get:</h4>
+                            <ul>
+                                <li>Websites built for engagement and performance</li>
+                                <li>Landing pages that drive conversions</li>
+                                <li>CRM and automation system integration</li>
+                                <li>E-commerce optimization for better sales</li>
+                            </ul>
+                        </div>
+                        <div class="service-result">
+                            <strong>Result:</strong>
+                            <p>A digital presence that looks professional, performs efficiently, and generates results.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service 6 -->
+                <div class="service-card">
+                    <div class="service-icon">6</div>
+                    <h3 class="service-title">Virtual Assistant and Customer Management</h3>
+                    <p class="service-tagline">Retention is the new growth.</p>
+                    <p class="service-description">Keeping customers happy costs less and pays more. Our team supports your business with customer communication, reputation management, and timely engagement to keep clients connected and loyal.</p>
+                    <div class="categories">
+                        <div class="category-tags">
+                            <span class="category-tag">Virtual Assistant Services</span>
+                            <span class="category-tag">Online Reputation Management</span>
+                            <span class="category-tag">Customer Relationship Management</span>
+                            <span class="category-tag">Email Marketing</span>
+                            <span class="category-tag">Review Management</span>
+                        </div>
+                    </div>
+                    <button class="expand-btn" onclick="toggleExpand(this)">
+                        <span class="expand-icon"></span>
+                        <span>View Details</span>
+                    </button>
+                    <div class="expandable-content">
+                        <div class="what-you-get">
+                            <h4>What you get:</h4>
+                            <ul>
+                                <li>Dedicated virtual assistant support</li>
+                                <li>Email and CRM communication systems</li>
+                                <li>Review and feedback management</li>
+                                <li>Follow-up processes that boost retention</li>
+                            </ul>
+                        </div>
+                        <div class="service-result">
+                            <strong>Result:</strong>
+                            <p>Loyal customers who stay longer, refer more, and strengthen your reputation.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service 7 -->
+                <div class="service-card">
+                    <div class="service-icon">7</div>
+                    <h3 class="service-title">Marketing Automation and Intelligence</h3>
+                    <p class="service-tagline">Smarter marketing that scales.</p>
+                    <p class="service-description">We create seamless systems that automate communication, monitor performance, and deliver insights that guide smarter decisions. Your marketing becomes more efficient and consistently effective.</p>
+                    <div class="categories">
+                        <div class="category-tags">
+                            <span class="category-tag">Marketing Automation</span>
+                            <span class="category-tag">Predictive Analytics</span>
+                            <span class="category-tag">Customer Data Intelligence</span>
+                            <span class="category-tag">Campaign Optimization</span>
+                        </div>
+                    </div>
+                    <button class="expand-btn" onclick="toggleExpand(this)">
+                        <span class="expand-icon"></span>
+                        <span>View Details</span>
+                    </button>
+                    <div class="expandable-content">
+                        <div class="what-you-get">
+                            <h4>What you get:</h4>
+                            <ul>
+                                <li>Automated workflows for customer journeys</li>
+                                <li>Data analysis and reporting dashboards</li>
+                                <li>Campaign optimization and personalization</li>
+                                <li>Predictive tools for better decision-making</li>
+                            </ul>
+                        </div>
+                        <div class="service-result">
+                            <strong>Result:</strong>
+                            <p>Streamlined marketing that runs efficiently and keeps improving with every campaign.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service 8 -->
+                <div class="service-card">
+                    <div class="service-icon">8</div>
+                    <h3 class="service-title">Training and Digital Strategy Consulting</h3>
+                    <p class="service-tagline">We don't just execute we empower.</p>
+                    <p class="service-description">We provide practical training and strategic guidance that help teams understand the principles behind effective digital marketing.</p>
+                    <div class="categories">
+                        <div class="category-tags">
+                            <span class="category-tag">Digital Strategy Consulting</span>
+                            <span class="category-tag">Marketing Training</span>
+                            <span class="category-tag">Social Media Workshops</span>
+                            <span class="category-tag">Brand Strategy Sessions</span>
+                            <span class="category-tag">Performance Coaching</span>
+                        </div>
+                    </div>
+                    <button class="expand-btn" onclick="toggleExpand(this)">
+                        <span class="expand-icon"></span>
+                        <span>View Details</span>
+                    </button>
+                    <div class="expandable-content">
+                        <div class="what-you-get">
+                            <h4>What you get:</h4>
+                            <ul>
+                                <li>Marketing and brand strategy sessions</li>
+                                <li>Corporate and SME digital training</li>
+                                <li>Social media and content workshops</li>
+                                <li>Hands-on guidance for in-house teams</li>
+                            </ul>
+                        </div>
+                        <div class="service-result">
+                            <strong>Result:</strong>
+                            <p>Skilled teams, clear direction, and strategies that create lasting impact.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="approach-section" id="about">
+        <div class="container">
+            <p class="section-subtitle">About Us</p>
+            <h2 class="approach-title">"For those who refuse to stay invisible."</h2>
+            <p class="approach-description">Zinara helps entrepreneurs, creators, and businesses turn visibility into growth. We engineer digital ecosystems powered by strategy, storytelling, and precision designed for those who refuse to stay invisible.</p>
+        </div>
+    </section>
+
+    <!-- Mission & Vision Section -->
+    <section class="results-section">
+        <div class="container">
+            <div class="mission-vision-grid">
+                <div class="mission-card">
+                    <h3>Mission</h3>
+                    <p>Amplify business stories through smart digital marketing that builds trust and drives growth.</p>
+                </div>
+                <div class="vision-card">
+                    <h3>Vision</h3>
+                    <p>Our vision is to be a leading force in digital marketing empowering brands to share their stories with authenticity, creativity, and purpose, inspiring meaningful connections that drive growth, trust, and lasting impact worldwide.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process-section" id="process">
+        <div class="process-container">
+            <div class="section-header">
+                <p class="section-label">Our Method</p>
+                <h2 class="section-title">Our Proven Growth Framework</h2>
+                <p class="section-subtitle">From audit to full-scale execution — step by step, transparent, and results-driven</p>
+            </div>
+
+            <div class="process-steps">
+                <div class="process-step">
+                    <div class="step-number-wrapper">
+                        <div class="step-number">1</div>
+                        <div class="step-connector"></div>
+                    </div>
+                    <div class="step-content">
+                        <h3 class="step-title">Audit & Quick Wins</h3>
+                        <p class="step-timeline">Day 0–7</p>
+                        <p class="step-description">We dive deep into your funnel, run comprehensive diagnostics, and deliver 3 immediate fixes you can implement right away for instant impact.</p>
+                        <ul class="step-features">
+                            <li>Complete funnel analysis & leak identification</li>
+                            <li>Competitor benchmarking</li>
+                            <li>3 actionable quick wins delivered</li>
+                            <li>Performance baseline established</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="process-step">
+                    <div class="step-number-wrapper">
+                        <div class="step-number">2</div>
+                        <div class="step-connector"></div>
+                    </div>
+                    <div class="step-content">
+                        <h3 class="step-title">Strategy & Blueprint</h3>
+                        <p class="step-timeline">Day 7</p>
+                        <p class="step-description">We design a customized 30/90-day roadmap with projected ROI, clear milestones, and aligned marketing automation strategy.</p>
+                        <ul class="step-features">
+                            <li>Custom growth roadmap with timeline</li>
+                            <li>Channel strategy & budget allocation</li>
+                            <li>Content calendar & campaign planning</li>
+                            <li>ROI projections & KPI framework</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="process-step">
+                    <div class="step-number-wrapper">
+                        <div class="step-number">3</div>
+                        <div class="step-connector"></div>
+                    </div>
+                    <div class="step-content">
+                        <h3 class="step-title">Execution & Optimization</h3>
+                        <p class="step-timeline">Ongoing</p>
+                        <p class="step-description">We run campaigns, analyze data weekly, and adjust until metrics move. Every decision backed by data, every test measured for impact.</p>
+                        <ul class="step-features">
+                            <li>Campaign launch & management</li>
+                            <li>Weekly A/B testing & optimization</li>
+                            <li>Real-time performance tracking</li>
+                            <li>Bi-weekly strategy calls</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="process-step">
+                    <div class="step-number-wrapper">
+                        <div class="step-number">4</div>
+                    </div>
+                    <div class="step-content">
+                        <h3 class="step-title">Scale & Retain</h3>
+                        <p class="step-timeline">Month 2+</p>
+                        <p class="step-description">We build systems to scale what works and nurture customers for lifetime value. Predictable growth, compounding results.</p>
+                        <ul class="step-features">
+                            <li>Scale winning campaigns</li>
+                            <li>Customer retention automation</li>
+                            <li>Lifetime value optimization</li>
+                            <li>Quarterly strategic planning</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="process-cta">
+                <h3>Your Custom Roadmap Delivered in 7 Days</h3>
+                <p>See exactly how we'll grow your business — with timelines, tactics, and projected ROI</p>
+                <a href="#contact" class="btn-light">Get My Blueprint</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Data Driven Section -->
+    <section class="data-driven-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Your Digital Growth. Simplified.</h2>
+                <p class="section-subtitle">Through Data Driven Strategies</p>
+            </div>
+            <p class="data-description">At Zinara Digital, we understand that every business has its own story, goals, and audience. That's why we craft personalized marketing strategies exclusively focused on your unique needs. By seamlessly integrating innovative creativity with insightful data analysis, we turn digital complexity into clear, actionable growth opportunities. Our focused approach ensures your brand captures meaningful attention, drives sustained engagement, and delivers measurable results empowering you to excel in your market with confidence and ease.</p>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+        <div class="testimonials-container">
+            <div class="section-header">
+                <h2 class="section-title">What Our Clients Say</h2>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="quote-icon">"</div>
+                    <p class="testimonial-text">"Working with Zinara was a game-changer. They didn't just run ads — they built us a complete growth engine. Our revenue doubled in 6 months."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">BW</div>
+                        <div class="author-info">
+                            <h4>Bridget Waceke</h4>
+                            <p>Managing Director, Elan Bags</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="quote-icon">"</div>
+                    <p class="testimonial-text">"Finally, an agency that speaks in revenue, not impressions. Zinara's data-driven approach gave us clarity and results we could actually measure."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">JM</div>
+                        <div class="author-info">
+                            <h4>Joseph Mwangi</h4>
+                            <p>Founder, UrbanTribe Events</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="quote-icon">"</div>
+                    <p class="testimonial-text">"The transparency and weekly reporting kept us in the loop. We always knew what was working and why. That's rare in this industry."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">MT</div>
+                        <div class="author-info">
+                            <h4>Medvera Team</h4>
+                            <p>Medvera Homecare</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proof/Case Studies Section -->
+    <section class="proof-section" id="results">
+        <div class="proof-container">
+            <div class="section-header">
+                <p class="section-label">Proven Results</p>
+                <h2 class="section-title">Results That Speak Louder Than Words</h2>
+                <p class="section-subtitle">Real clients. Real growth. Real metrics.</p>
+            </div>
+
+            <div class="case-studies">
+                <div class="case-card">
+                    <div class="case-image">UT</div>
+                    <div class="case-content">
+                        <p class="case-client">UrbanTribe Events</p>
+                        <h3 class="case-title">Booked Out 3 Major Events in 90 Days</h3>
+                        <p class="case-challenge"><strong>Challenge:</strong> Low registrations, high ad cost, poor targeting</p>
+                        <div class="case-results">
+                            <div class="case-metric">
+                                <span class="metric-label">Bookings Increase</span>
+                                <span class="metric-value">300%</span>
+                            </div>
+                            <div class="case-metric">
+                                <span class="metric-label">Ad Cost Reduction</span>
+                                <span class="metric-value">-60%</span>
+                            </div>
+                        </div>
+                        <p class="case-quote">"Zinara transformed our event marketing. We went from struggling to fill seats to selling out in days."</p>
+                    </div>
+                </div>
+
+                <div class="case-card">
+                    <div class="case-image">EB</div>
+                    <div class="case-content">
+                        <p class="case-client">Elan Bags</p>
+                        <h3 class="case-title">Scaled E-Commerce Revenue by 250%</h3>
+                        <p class="case-challenge"><strong>Challenge:</strong> Low website traffic, poor conversion rates, no retention strategy</p>
+                        <div class="case-results">
+                            <div class="case-metric">
+                                <span class="metric-label">Revenue Growth</span>
+                                <span class="metric-value">250%</span>
+                            </div>
+                            <div class="case-metric">
+                                <span class="metric-label">Conversion Rate</span>
+                                <span class="metric-value">+45%</span>
+                            </div>
+                        </div>
+                        <p class="case-quote">"Our online sales exploded. Zinara built a system that keeps customers coming back."</p>
+                    </div>
+                </div>
+
+                <div class="case-card">
+                    <div class="case-image">MH</div>
+                    <div class="case-content">
+                        <p class="case-client">Medvera Homecare</p>
+                        <h3 class="case-title">Generated 150+ Qualified Leads/Month</h3>
+                        <p class="case-challenge"><strong>Challenge:</strong> Reliance on referrals, no digital presence, inconsistent lead flow</p>
+                        <div class="case-results">
+                            <div class="case-metric">
+                                <span class="metric-label">Monthly Leads</span>
+                                <span class="metric-value">150+</span>
+                            </div>
+                            <div class="case-metric">
+                                <span class="metric-label">Lead Quality Score</span>
+                                <span class="metric-value">8.5/10</span>
+                            </div>
+                        </div>
+                        <p class="case-quote">"We now have a predictable pipeline. No more feast or famine."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Differentiation/Why Us Section -->
+    <section class="differentiation-section">
+        <div class="differentiation-container">
+            <div class="section-header">
+                <p class="section-label">Why Choose Us</p>
+                <h2 class="section-title">Why Smart Brands Choose Us (Not Other Agencies)</h2>
+                <p class="section-subtitle">We're not "just another agency" — here's what makes us different</p>
+            </div>
+
+            <div class="differentiators-grid">
+                <div class="differentiator-card">
+                    <div class="differentiator-icon">📊</div>
+                    <h3 class="differentiator-title">Data-First Growth Engine</h3>
+                    <p class="differentiator-description">Every decision backed by data, not guesswork. We test, measure, optimize — then scale what works.</p>
+                </div>
+                <div class="differentiator-card">
+                    <div class="differentiator-icon">🔍</div>
+                    <h3 class="differentiator-title">Transparent Dashboards</h3>
+                    <p class="differentiator-description">See exactly what we do, when we do it, and the results it generates. Real-time access to all metrics.</p>
+                </div>
+                <div class="differentiator-card">
+                    <div class="differentiator-icon">✅</div>
+                    <h3 class="differentiator-title">Performance Guarantee</h3>
+                    <p class="differentiator-description">We guarantee measurable improvement or your money back. We only win when you win.</p>
+                </div>
+                <div class="differentiator-card">
+                    <div class="differentiator-icon">🎯</div>
+                    <h3 class="differentiator-title">Proven Across Verticals</h3>
+                    <p class="differentiator-description">E-commerce, services, SaaS, events — we've driven growth across every major industry.</p>
+                </div>
+                <div class="differentiator-card">
+                    <div class="differentiator-icon">👥</div>
+                    <h3 class="differentiator-title">Dedicated Account Lead</h3>
+                    <p class="differentiator-description">You get a dedicated strategist plus access to our full team. Weekly check-ins, always responsive.</p>
+                </div>
+                <div class="differentiator-card">
+                    <div class="differentiator-icon">🧪</div>
+                    <h3 class="differentiator-title">Lean Experiments First</h3>
+                    <p class="differentiator-description">We test with small budgets before full deployment. No wasted spend on unproven tactics.</p>
+                </div>
+            </div>
+
+            <div class="guarantee-box">
+                <div class="guarantee-badge">🛡️</div>
+                <h3>30-Day Performance Guarantee</h3>
+                <p>We guarantee at least 20% improvement in your key metrics within 30 days, or we'll refund your investment and work for free until we hit the target.</p>
+                <a href="#contact" class="btn-light">Start With Zero Risk</a>
+                <p class="guarantee-terms">*Guarantee applies to clients with minimum ad spend of $1,000/month and full implementation of recommended strategies.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing-section" id="pricing">
+        <div class="pricing-container">
+            <div class="section-header">
+                <p class="section-label">Investment</p>
+                <h2 class="section-title">Choose Your Growth Package</h2>
+                <p class="section-subtitle">Flexible plans to match your stage and goals — all backed by our performance guarantee</p>
+            </div>
+
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <p class="pricing-tier">Starter</p>
+                    <h3 class="pricing-title">Launch</h3>
+                    <p class="pricing-description">Perfect for businesses ready to establish their digital presence and start generating leads.</p>
+                    <div class="pricing-price">
+                        <span class="price-amount">KSh 150K</span>
+                        <span class="price-period">/month</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>✓ Complete funnel audit</li>
+                        <li>✓ 30-day growth roadmap</li>
+                        <li>✓ 2 marketing channels</li>
+                        <li>✓ Monthly performance report</li>
+                        <li>✓ Email & chat support</li>
+                        <li>✓ Up to 100 qualified leads/month</li>
+                    </ul>
+                    <a href="#contact" class="btn-secondary">Start Launch Plan</a>
+                </div>
+
+                <div class="pricing-card featured">
+                    <p class="pricing-tier">Growth</p>
+                    <h3 class="pricing-title">Scale</h3>
+                    <p class="pricing-description">For businesses ready to scale aggressively with multi-channel campaigns and optimization.</p>
+                    <div class="pricing-price">
+                        <span class="price-amount">KSh 350K</span>
+                        <span class="price-period">/month</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>✓ Everything in Launch</li>
+                        <li>✓ 90-day growth roadmap</li>
+                        <li>✓ 4+ marketing channels</li>
+                        <li>✓ Weekly A/B testing</li>
+                        <li>✓ Bi-weekly strategy calls</li>
+                        <li>✓ Marketing automation setup</li>
+                        <li>✓ Up to 300 qualified leads/month</li>
+                        <li>✓ Dedicated account manager</li>
+                    </ul>
+                    <a href="#contact" class="btn-primary">Start Scale Plan</a>
+                </div>
+
+                <div class="pricing-card">
+                    <p class="pricing-tier">Enterprise</p>
+                    <h3 class="pricing-title">Dominate</h3>
+                    <p class="pricing-description">Full-service growth engine for businesses ready to dominate their market.</p>
+                    <div class="pricing-price">
+                        <span class="price-amount">Custom</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>✓ Everything in Scale</li>
+                        <li>✓ Full omnichannel strategy</li>
+                        <li>✓ Advanced attribution modeling</li>
+                        <li>✓ Customer LTV optimization</li>
+                        <li>✓ Retention automation</li>
+                        <li>✓ Weekly strategy sessions</li>
+                        <li>✓ Priority support 24/7</li>
+                        <li>✓ Unlimited leads</li>
+                    </ul>
+                    <a href="#contact" class="btn-secondary">Get Custom Plan</a>
+                </div>
+            </div>
+
+            <div class="pricing-note">
+                <p>All packages include our 30-day performance guarantee. Campaign budgets are separate and recommended starting at KSh 100K/month for meaningful scale.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="faq-container">
+            <div class="section-header">
+                <p class="section-label">Questions</p>
+                <h2 class="section-title">Questions You Might Be Asking...</h2>
+            </div>
+
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3 class="faq-question">How soon can I see results?</h3>
+                    <p class="faq-answer">With our "Quick Wins" audit, you'll get actionable fixes in 7 days. Most clients see measurable lift in 30–60 days. Full transformation typically happens within 90 days.</p>
+                </div>
+                <div class="faq-item">
+                    <h3 class="faq-question">What's the minimum spend?</h3>
+                    <p class="faq-answer">Our engagement minimum starts at KSh 150K/month for the Launch package. Campaign budgets typically start at KSh 100K/month for meaningful scale and testing.</p>
+                </div>
+                <div class="faq-item">
+                    <h3 class="faq-question">Do you guarantee results?</h3>
+                    <p class="faq-answer">Yes — for qualifying clients, we offer a 30-day improvement guarantee. If we don't deliver at least 20% improvement in your key metrics, we refund your investment.</p>
+                </div>
+                <div class="faq-item">
+                    <h3 class="faq-question">Which industries do you serve?</h3>
+                    <p class="faq-answer">We specialize in service brands, e-commerce, SaaS, events, coaching, and local businesses across Africa. We've driven growth in 15+ industries.</p>
+                </div>
+                <div class="faq-item">
+                    <h3 class="faq-question">Who handles my account?</h3>
+                    <p class="faq-answer">You'll get a dedicated strategist plus access to our full team of media buyers, content creators, and data analysts. You're never just a ticket number.</p>
+                </div>
+                <div class="faq-item">
+                    <h3 class="faq-question">What's your reporting like?</h3>
+                    <p class="faq-answer">Every client gets access to a live dashboard with real-time metrics. Plus weekly email updates and bi-weekly strategy calls to review performance and optimize.</p>
+                </div>
+                <div class="faq-item">
+                    <h3 class="faq-question">Do you work with startups?</h3>
+                    <p class="faq-answer">Absolutely. We've helped dozens of startups build their first scalable growth engine. Our Launch package is designed specifically for early-stage businesses.</p>
+                </div>
+                <div class="faq-item">
+                    <h3 class="faq-question">What if I'm already running ads?</h3>
+                    <p class="faq-answer">Perfect. We'll audit your current campaigns, identify leaks and opportunities, then optimize what's working and fix what's not. Most clients see immediate improvements.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="contact-container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Let's Build Your Custom Growth Plan</h2>
+                    <p class="contact-subtitle">Fill out the short form — we'll get back to you within 24 hours with your roadmap.</p>
+                    <div class="contact-benefits">
+                        <div class="benefit-item">
+                            <span class="benefit-icon">✓</span>
+                            <p>Free 30-minute strategy call</p>
+                        </div>
+                        <div class="benefit-item">
+                            <span class="benefit-icon">✓</span>
+                            <p>Custom growth recommendations</p>
+                        </div>
+                        <div class="benefit-item">
+                            <span class="benefit-icon">✓</span>
+                            <p>No obligations or hard sell</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <input type="text" name="name" placeholder="Your Name *" required>
+                        <input type="text" name="business" placeholder="Business / Website">
+                        <input type="email" name="email" placeholder="Your Email *" required>
+                        <input type="tel" name="phone" placeholder="Phone Number (Optional)">
+                        <select name="goal" required>
+                            <option value="">What's your biggest growth goal? *</option>
+                            <option value="leads">Generate More Leads</option>
+                            <option value="conversion">Improve Conversion Rate</option>
+                            <option value="traffic">Increase Website Traffic</option>
+                            <option value="retention">Boost Customer Retention</option>
+                            <option value="other">Other</option>
+                        </select>
+                        <textarea name="message" placeholder="Tell us about your business and goals (Optional)" rows="4"></textarea>
+                        <button type="submit" class="submit-btn">Get My Growth Plan</button>
+                        <p class="form-microcopy">No obligation. We'll audit your funnel and show you next steps. We respect your privacy & never spam.</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>ZINARA DIGITAL</h3>
+                    <p>Your digital growth partner.</p>
+                    <p><a href="tel:+254704878872">+254704878872</a></p>
+                    <p>Nairobi, Kenya</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Social Media Marketing</a></li>
+                        <li><a href="#services">Branding & Design</a></li>
+                        <li><a href="#services">SEO & Content Marketing</a></li>
+                        <li><a href="#services">Web Design</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Zinara Digital Marketing. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
