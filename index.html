@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zinara Digital — Unleashing Your Brand’s Digital Potential | Digital Marketing Agency</title>
+    <meta name="description" content="Zinara Digital Marketing Agency: Where Visibility Meets Conversion. Simplify your digital growth with data-driven strategies, SEO, and CRO for measurable results.">
+    <meta name="keywords" content="digital marketing agency, SEO agency, CRO agency, paid ads management, growth marketing for SMBs, Nairobi Kenya marketing">
+    <meta property="og:title" content="Zinara Digital — Unleashing Your Brand’s Digital Potential">
+    <meta property="og:description" content="Simplify your digital growth with Zinara Digital Marketing Agency. Data-driven strategies for visibility, conversions, and lasting growth.">
+    <meta property="og:image" content="https://zinara-digital.com/logo.png">
+    <meta property="og:url" content="https://zinara-digital.com">
+    <meta name="twitter:card" content="summary_large_image">
+    <style>
+        :root {
+            --color-deep-teal: #00303F;
+            --color-blush: #EDDFE0;
+            --color-sea-blue: #006B7D;
+            --color-orange: #FF6B35;
+            --color-aqua: #03A6A1;
+            --color-gray-accent: #7A7A7A;
+            --primary: var(--color-sea-blue);
+            --primary-dark: var(--color-deep-teal);
+            --primary-light: rgba(0, 107, 125, 0.1);
+            --secondary: var(--color-orange);
+            --accent: var(--color-aqua);
+            --light-bg: var(--color-blush);
+            --dark: var(--color-deep-teal);
+            --gray-900: #111827;
+            --gray-800: #1F2937;
+            --gray-700: #374151;
+            --gray-600: var(--color-gray-accent);
+            --gray-500: #6B7280;
+            --gray-400: #9CA3AF;
+            --gray-300: #D1D5DB;
+            --gray-200: #E5E7EB;
+            --gray-100: #F3F4F6;
+            --gray-50: #F9FAFB;
+            --white: #FFFFFF;
+            --gradient-primary: linear-gradient(135deg, var(--color-sea-blue) 0%, var(--color-aqua) 100%);
+            --gradient-hero: linear-gradient(135deg, var(--color-deep-teal) 0%, var(--color-sea-blue) 100%);
+            --gradient-accent: linear-gradient(135deg, var(--color-orange) 0%, #FF8C57 100%);
+            --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+            --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+            --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+            --shadow-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+            --border-radius: 8px;
+            --border-radius-lg: 12px;
+            --border-radius-xl: 16px;
+            --max-width: 1280px;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #fff;
+        }
+
+        .container {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 700;
+            line-height: 1.2;
+            color: var(--dark);
+        }
+
+        h1 { font-size: clamp(2.5rem, 5vw, 4rem); }
+        h2 { font-size: clamp(2rem, 4vw, 3rem); }
+        h3 { font-size: clamp(1.5rem, 3vw, 2rem); }
+        h4 { font-size: clamp(1.25rem, 2.5vw, 1.5rem); }
+
+        p {
+            font-size: 1.125rem;
+            line-height: 1.75;
+            color: var(--gray-700);
+        }
+
+        .section-tag {
+            display: block;
+            text-transform: uppercase;
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.1em;
+            margin-bottom: 0.5rem;
+        }
+
+        .section-tag.inverse {
+            color: var(--white);
+        }
+
+        .fade-in {
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeIn 0.6s ease-out forwards;
+        }
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+
+        .section-header h2 {
+            margin-bottom: 1rem;
+            color: var(--color-deep-teal);
+        }
+
+        .section-header p {
+            max-width: 600px;
+            margin: 0 auto;
+            color: var(--gray-600);
+        }
+        header {
+            background-color: var(--color-deep-teal);
+            color: white;
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        nav {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        .nav-links {
+            display: flex;
+            list-style: none;
+        }
+        .nav-links li {
+            margin-left: 20px;
+        }
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+        }
+        .hero {
+            background: linear-gradient(135deg, var(--color-sea-blue), var(--color-aqua));
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+        .cta-button {
+            background-color: var(--color-orange);
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+            margin: 0 10px;
+        }
+        .cta-button.secondary {
+            background-color: transparent;
+            border: 2px solid white;
+        }
+        .trust-bar {
+            margin-top: 30px;
+            font-size: 0.9rem;
+        }
+        .section {
+            padding: 80px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .why-choose {
+            background-color: var(--color-blush);
+        }
+        .bullets {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .bullet {
+            width: 30%;
+            text-align: center;
+            margin: 20px 0;
+        }
+        .process {
+            background-color: #f9f9f9;
+        }
+        .steps {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .step {
+            width: 30%;
+            text-align: center;
+            margin: 20px 0;
+        }
+        .step h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .service-card {
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .case-studies {
+            background-color: var(--color-blush);
+        }
+        .case {
+            margin: 20px 0;
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        .trust {
+            background-color: #f9f9f9;
+        }
+        .metrics {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .metric {
+            width: 30%;
+            text-align: center;
+            margin: 20px 0;
+        }
+        .contact {
+            background-color: var(--color-sea-blue);
+            color: white;
+        }
+        form {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        form input, form select, form button {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+        }
+        form button {
+            background-color: var(--color-orange);
+            color: white;
+            cursor: pointer;
+        }
+        footer {
+            background-color: var(--color-deep-teal);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .footer-links {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        }
+        .footer-section {
+            width: 20%;
+            margin: 10px 0;
+        }
+        /* Services Section */
+        .services-section {
+            padding: 80px 0;
+            background: white;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+            margin-top: 4rem;
+        }
+
+        .service-card {
+            background: white;
+            border: 1px solid var(--gray-200);
+            border-radius: var(--border-radius-lg);
+            padding: 2rem;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .service-card::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background: var(--gradient-primary);
+            transform: translateY(-4px);
+            transition: transform 0.3s ease;
+        }
+
+        .service-card:hover {
+            box-shadow: var(--shadow-xl);
+            transform: translateY(-5px);
+        }
+
+        .service-card:hover::after {
+            transform: translateY(0);
+        }
+
+        .service-icon {
+            width: 60px;
+            height: 60px;
+            background: var(--primary-light);
+            border-radius: var(--border-radius);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--primary);
+            font-size: 1.75rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .service-title {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: var(--dark);
+        }
+
+        .service-benefit {
+            color: var(--gray-700);
+            margin-bottom: 1.5rem;
+            font-weight: 500;
+        }
+
+        .service-features {
+            list-style: none;
+            margin-bottom: 1.5rem;
+        }
+
+        .service-features li {
+            padding: 0.5rem 0;
+            color: var(--gray-600);
+            display: flex;
+            align-items: center;
+        }
+
+        .service-features li::before {
+            content: '→';
+            color: var(--color-aqua);
+            font-weight: 700;
+            margin-right: 0.75rem;
+        }
+
+        .service-cta {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+            transition: gap 0.3s ease;
+        }
+
+        .service-cta:hover {
+            gap: 0.5rem;
+        }
+
+        .service-microcopy {
+            font-size: 0.875rem;
+            color: var(--gray-500);
+            margin-top: 1rem;
+        }
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+            .section h2 {
+                font-size: 2rem;
+            }
+            .bullets, .steps, .metrics {
+                flex-direction: column;
+                align-items: center;
+            }
+            .bullet, .step, .metric {
+                width: 80%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Zinara Digital</div>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#why">Why Us</a></li>
+                <li><a href="#process">Process</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero" class="hero">
+        <h1>ZINARA DIGITAL</h1>
+        <h2>Unleashing Your Brand’s Digital Potential</h2>
+        <p>With zinara digital marketing agency Where Visibility Meets Conversion.</p>
+        <p>At Zinara Digital Marketing Agency, we’re more than a marketing firm — we’re your committed growth partner in the digital space. We simplify your digital growth through strategies that build visibility, trust, and measurable success. By blending creativity, data, and precision, we help brands stand out, connect with the right audience, and turn engagement into lasting growth.</p>
+        <p>Your Digital Growth. Simplified.</p>
+        <button class="cta-button" onclick="alert('Transform Your Online Presence')">Transform Your Online Presence</button>
+        <div class="trust-bar">
+            <p>50+ Businesses Grown • 250% Average Revenue Increase • 98% Client Retention Rate</p>
+        </div>
+    </section>
+
+    <section id="why" class="section why-choose">
+        <h2>ABOUT US</h2>
+        <p>"For those who refuse to stay invisible."</p>
+        <p>Zinara helps entrepreneurs, creators, and businesses turn visibility into growth. We engineer digital ecosystems powered by strategy, storytelling, and precision designed for those who refuse to stay invisible.</p>
+        <button class="cta-button" style="margin-top: 20px;" onclick="alert('Start Now')">Start Now</button>
+        <h3>Mission</h3>
+        <p>Amplify business stories through smart digital marketing that builds trust and drives growth.</p>
+        <h3>VISION</h3>
+        <p>Our vision is to be a leading force in digital marketing empowering brands to share their stories with authenticity, creativity, and purpose, inspiring meaningful connections that drive growth, trust, and lasting impact worldwide.</p>
+        <p>Partner with Zinara Digital: Where Strategy Fuels Creativity and Growth</p>
+        <p>At Zinara Digital, we craft customized digital marketing strategies designed to elevate your brand’s presence, connect you with your ideal audience, and drive measurable business growth. Whether your goal is to raise awareness, increase conversions, or deepen customer loyalty, our expert team ensures your brand shines in the moments that matter most.</p>
+        <button class="cta-button" style="margin-top: 20px;" onclick="alert('Partner with Zinara Digital')">Partner with Zinara Digital</button>
+    </section>
+
+    <section id="process" class="section process">
+        <h2>Our Process: Clear Steps to Revenue</h2>
+        <p>Simple, transparent, and designed to deliver results fast.</p>
+        <div class="steps">
+            <div class="step">
+                <h3>1. Audit & Quick Wins</h3>
+                <p>We audit your funnel and deliver 3 quick wins you can apply immediately. (Day 0–7)</p>
+            </div>
+            <div class="step">
+                <h3>2. Custom Growth Plan</h3>
+                <p>A tailored 30-/90-day plan with projected ROI and clear milestones. (Day 7)</p>
+            </div>
+            <div class="step">
+                <h3>3. Execute & Optimize</h3>
+                <p>We run campaigns, optimize weekly, and report on revenue metrics. (Ongoing)</p>
+            </div>
+        </div>
+        <button class="cta-button" style="margin-top: 20px;" onclick="alert('Our Results')">Our Results</button>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="section-header fade-in">
+                <span class="section-tag">ALL SERVICES</span>
+                <h2>How We Drive Measurable Growth</h2>
+                <p>We're not just an agency — we're your strategic ally. We diagnose funnels, execute targeted campaigns, and run continual testing for compounding results.</p>
+            </div>
+            
+            <div class="services-grid">
+                <!-- Strategy Service -->
+                <div class="service-card fade-in">
+                    <div class="service-icon">🎯</div>
+                    <h3 class="service-title">Strategy</h3>
+                    <p class="service-benefit">Customized digital marketing strategies that elevate your brand's presence and connect with your ideal audience.</p>
+                    <ul class="service-features">
+                        <li>Brand positioning and messaging</li>
+                        <li>Audience research and targeting</li>
+                        <li>Competitive analysis and market insights</li>
+                    </ul>
+                    <a href="#" class="service-cta">See Strategy Work →</a>
+                    <p class="service-microcopy">Foundation for all successful campaigns</p>
+                </div>
+
+                <!-- Execution Service -->
+                <div class="service-card fade-in">
+                    <div class="service-icon">⚡</div>
+                    <h3 class="service-title">Execution</h3>
+                    <p class="service-benefit">Seamless campaign execution across all digital channels with precision and creativity.</p>
+                    <ul class="service-features">
+                        <li>Social media management and content creation</li>
+                        <li>Paid advertising campaigns (Google, Facebook, LinkedIn)</li>
+                        <li>Email marketing and automation</li>
+                    </ul>
+                    <a href="#" class="service-cta">See Campaign Results →</a>
+                    <p class="service-microcopy">250% average revenue increase for clients</p>
+                </div>
+
+                <!-- Optimization Service -->
+                <div class="service-card fade-in">
+                    <div class="service-icon">🔄</div>
+                    <h3 class="service-title">Optimization</h3>
+                    <p class="service-benefit">Continuous testing and optimization to maximize performance and ROI.</p>
+                    <ul class="service-features">
+                        <li>A/B testing and performance analysis</li>
+                        <li>Conversion rate optimization</li>
+                        <li>Data-driven campaign refinements</li>
+                    </ul>
+                    <a href="#" class="service-cta">See Optimization Results →</a>
+                    <p class="service-microcopy">Compounding results through continuous improvement</p>
+                </div>
+
+                <!-- Content Marketing Service -->
+                <div class="service-card fade-in">
+                    <div class="service-icon">📝</div>
+                    <h3 class="service-title">Content Marketing</h3>
+                    <p class="service-benefit">Compelling storytelling that builds trust and drives engagement across all touchpoints.</p>
+                    <ul class="service-features">
+                        <li>Brand storytelling and content strategy</li>
+                        <li>Blog writing and thought leadership</li>
+                        <li>Visual content and video production</li>
+                    </ul>
+                    <a href="#" class="service-cta">See Content Portfolio →</a>
+                    <p class="service-microcopy">Stories that inspire meaningful connections</p>
+                </div>
+
+                <!-- SEO Service -->
+                <div class="service-card fade-in">
+                    <div class="service-icon">🔍</div>
+                    <h3 class="service-title">SEO & Online Visibility</h3>
+                    <p class="service-benefit">Increase your online visibility and organic reach through strategic SEO.</p>
+                    <ul class="service-features">
+                        <li>Technical SEO and website optimization</li>
+                        <li>Keyword research and content optimization</li>
+                        <li>Local SEO and Google My Business</li>
+                    </ul>
+                    <a href="#" class="service-cta">See SEO Results →</a>
+                    <p class="service-microcopy">Significant increase in organic traffic and rankings</p>
+                </div>
+
+                <!-- Automation Service -->
+                <div class="service-card fade-in">
+                    <div class="service-icon">🤖</div>
+                    <h3 class="service-title">Marketing Automation</h3>
+                    <p class="service-benefit">Streamline operations and nurture leads with intelligent automation systems.</p>
+                    <ul class="service-features">
+                        <li>Email marketing automation</li>
+                        <li>Lead nurturing sequences</li>
+                        <li>Customer journey optimization</li>
+                    </ul>
+                    <a href="#" class="service-cta">See Automation Results →</a>
+                    <p class="service-microcopy">60% reduction in admin time, increased efficiency</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2>Our Work</h2>
+        <p>Explore a showcase of our successful digital marketing campaigns and projects. Each initiative is a testament to our commitment to delivering exceptional results and driving business growth.</p>
+        <div class="services">
+            <div class="service-card">
+                <h3>SEO Campaign for Tech Startup</h3>
+                <p>Increasing Online Visibility</p>
+                <p>Our SEO campaign for a tech startup resulted in a significant increase in organic traffic and a boost in search engine rankings. The tailored strategy focused on relevant keywords and quality content.</p>
+            </div>
+            <div class="service-card">
+                <h3>Social Media Campaign for Fashion Brand</h3>
+                <p>Enhancing Brand Engagement</p>
+                <p>Our social media campaign for a fashion brand led to a rise in follower engagement and an increase in website traffic. Through captivating visuals and targeted ads, we amplified brand awareness and customer interactions.</p>
+            </div>
+            <div class="service-card">
+                <h3>Content Marketing for E-Commerce Business</h3>
+                <p>Driving Conversions Through Content</p>
+                <p>Our content marketing efforts for an e-commerce business generated a boost in conversion rates and customer retention. By creating valuable and engaging content, we established a loyal customer base and increased sales.</p>
+            </div>
+        </div>
+        <p>How We Drive Measurable Growth: We're not just an agency — we're your strategic ally.</p>
+    </section>
+
+    <section class="section case-studies">
+        <h2>What our client's say about Zinara Digital</h2>
+        <p>Our clients share their success stories and experiences working with us. Discover how ZINARA DIGITAL has helped businesses achieve their digital marketing goals and grow their online presence.</p>
+        <div class="case">
+            <h3>Medvera Homecare Team</h3>
+            <p>Medvera Homecare</p>
+            <p>Working with Zinara Digital transformed how families find our care. Their social media work, customer care, and online reputation management amplified our message, increased trust, and helped us connect with more families through prompt, compassionate support.</p>
+        </div>
+        <div class="case">
+            <h3>Bridget Waceke</h3>
+            <p>Managing Director, Elan Bags</p>
+            <p>Elan Bags</p>
+            <p>Zinara Digital lifted our brand visibility beyond expectations. Their content and social strategy doubled engagement and grew online sales by 250% in three months, turning our lookbook into a reliable sales channel.</p>
+        </div>
+        <div class="case">
+            <h3>Joseph Mwangi</h3>
+            <p>Founder, UrbanTribe Events</p>
+            <p>Azma Suleiman</p>
+            <p>Operations Manager, GlamFix Beauty Parlour</p>
+            <p>UrbanTribe Events</p>
+            <p>Zinara Digital sold out three major events with targeted campaigns and automation. We reduced admin time by 60% and could focus on the event experience.</p>
+            <p>GlamFix Beauty Parlour</p>
+            <p>Zinara’s digital overhaul boosted our monthly clients by 40% and streamlined bookings with automation, making daily operations much smoother.</p>
+        </div>
+    </section>
+
+    <section class="section trust">
+        <h2>How We Drive Measurable Growth</h2>
+        <p>We're not just an agency — we're your strategic ally.</p>
+        <div class="bullets">
+            <div class="bullet">
+                <p>Businesses Grown: 50+</p>
+            </div>
+            <div class="bullet">
+                <p>250% Average Revenue Increase</p>
+            </div>
+            <div class="bullet">
+                <p>98% Client Retention Rate</p>
+            </div>
+        </div>
+        <p>We diagnose funnels, execute targeted campaigns, and run continual testing for compounding results.</p>
+        <p>Strategy → Execution → Optimization</p>
+        <p>At Zinara Digital, we engineer digital ecosystems that amplify presence, accelerate conversions, and scale retention. We combine strategy, storytelling, and automation to turn attention into revenue</p>
+    </section>
+
+    <section class="section">
+        <h2>How We Measure Success</h2>
+        <div class="metrics">
+            <div class="metric">
+                <h3>250%</h3>
+                <p>Average Revenue Increase</p>
+            </div>
+            <div class="metric">
+                <h3>98%</h3>
+                <p>Client Retention Rate</p>
+            </div>
+            <div class="metric">
+                <h3>Strategy → Execution → Optimization</h3>
+                <p>We diagnose funnels, execute targeted campaigns, and run continual testing for compounding results.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact">
+        <h2>Contact Us</h2>
+        <p>Get in touch by filling out the form. We’ll respond as soon we can.</p>
+        <form onsubmit="alert('Thanks for submitting! We will contact you soon.'); return false;">
+            <input type="text" placeholder="First Name" required>
+            <input type="text" placeholder="Last Name" required>
+            <input type="email" placeholder="Email" required>
+            <input type="tel" placeholder="Phone">
+            <textarea placeholder="Message"></textarea>
+            <button type="submit" class="cta-button">Submit</button>
+        </form>
+        <p>ZINARA DIGITAL<br>Your digital growth partner.<br>Your digital growth partner.<br>Phone: +254704878872<br>Email: zinara-digital-2.com<br>Nairobi, Kenya</p>
+    </section>
+
+    <section class="section">
+        <h2>Blog & Resources</h2>
+        <p>Complete Guide to Local SEO for Service Businesses</p>
+        <button class="cta-button" onclick="alert('Read the full guide')">Read the full guide</button>
+    </section>
+
+    <footer>
+        <div class="footer-links">
+            <div class="footer-section">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="#">SEO</a></li>
+                    <li><a href="#">Paid Media</a></li>
+                    <li><a href="#">CRO</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="#">Guides</a></li>
+                    <li><a href="#">Case Studies</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>About</h4>
+                <ul>
+                    <li><a href="#">Team</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>Phone: (123) 456-7890</p>
+                <p>Email: info@zinaradigital.com</p>
+                <button class="cta-button" onclick="alert('Get a free audit')">Get a free audit</button>
+            </div>
+        </div>
+        <p>&copy; 2025 Zinara Digital Marketing. All rights reserved.</p>
+        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Zinara Digital",
+            "url": "https://zinara-digital.com",
+            "logo": "https://zinara-digital.com/logo.png",
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+254704878872",
+                "contactType": "Customer Service"
+            },
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Nairobi",
+                "addressCountry": "Kenya"
+            },
+            "sameAs": [
+                "https://www.facebook.com/zinara",
+                "https://www.linkedin.com/company/zinara"
+            ]
+        }
+        </script>
+        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "name": "Zinara Digital",
+            "url": "https://zinara-digital.com",
+            "potentialAction": {
+                "@type": "SearchAction",
+                "target": "https://zinara-digital.com/search?q={search_term_string}",
+                "query-input": "required name=search_term_string"
+            }
+        }
+        </script>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "What makes Zinara Digital different?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "We blend creativity, data, and precision to build visibility, trust, and measurable success. We're your committed growth partner."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Do you offer outcome-based pricing?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes, we craft customized strategies for awareness, conversions, or loyalty, ensuring your brand shines in key moments."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How does the process work?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "1. Audit & Quick Wins (Day 0–7). 2. Custom Growth Plan (Day 7). 3. Execute & Optimize (Ongoing)."
+                    }
+                }
+            ]
+        }
+        </script>
+        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "HowTo",
+            "name": "Our Process: Clear Steps to Revenue",
+            "description": "Simple, transparent steps to deliver results fast.",
+            "step": [
+                {
+                    "@type": "HowToStep",
+                    "name": "Audit & Quick Wins",
+                    "text": "We audit your funnel and deliver 3 quick wins you can apply immediately. (Day 0–7)"
+                },
+                {
+                    "@type": "HowToStep",
+                    "name": "Custom Growth Plan",
+                    "text": "A tailored 30-/90-day plan with projected ROI and clear milestones. (Day 7)"
+                },
+                {
+                    "@type": "HowToStep",
+                    "name": "Execute & Optimize",
+                    "text": "We run campaigns, optimize weekly, and report on revenue metrics. (Ongoing)"
+                }
+            ]
+        }
+        </script>
+    </footer>
+
+    <script>
+        // Simple animation on scroll for metrics
+        window.addEventListener('scroll', function() {
+            const metrics = document.querySelectorAll('.metric');
+            metrics.forEach(metric => {
+                const rect = metric.getBoundingClientRect();
+                if (rect.top < window.innerHeight) {
+                    metric.style.animation = 'fadeIn 1s ease-in-out';
+                }
+            });
+        });
+        // Add keyframes via CSS in JS for simplicity
+        const style = document.createElement('style');
+        style.innerHTML = `
+            @keyframes fadeIn {
+                from { opacity: 0; transform: translateY(20px); }
+                to { opacity: 1; transform: translateY(0); }
+            }
+        `;
+        document.head.appendChild(style);
+    </script>
+</body>
+</html>
